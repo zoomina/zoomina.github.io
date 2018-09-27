@@ -1,0 +1,156 @@
+---
+layout: post
+title: "3. Kotlin 기초 데이터 타입"
+date: 2018-09-27
+categories: Kotlin
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
+## Kotlin 데이터 타입
+----
+
+기존 대부분의 언어들은 기초 데이터 타입과 Wrapper로 이루어져 있었습니다.  
+예를 들자면 Java는 데이터 타입 int와 Wrapper Class Integer로 분리되어있었죠.  
+하지만 계속 언급했듯이 Kotlin은 모두 객체로 이루어져있습니다.  
+
+`Int`, `Double`, `Float`, `Long`, `Short`, `Byte`, `Char`, `Boolean`, `String`, `Any`, `Unit`, `Nothing`  
+
+이름에서 알 수 있듯이, 모든 데이터 타입은 클래스로 이루어져있습니다.  
+
+## 기본 데이터 타입
+----
+
+위의 분류는 극히 주관적인 분류입니다.  
+기존의 언어를 통해 익숙해진 데이터 타입인 숫자, 문자, 논리 데이터 타입을 먼저 살펴볼 예정입니다.  
+
+<br>
+
+### 1. 숫자 데이터 타입
+<br>
+숫자 데이터 타입은 기존과 크게 다르지 않기 때문에 간단한 내용만 언급할 예정입니다.  
+
+Type | Bit | Byte
+:---: | :---: | :---:
+Double | 64 | 8
+Float | 32 | 4
+Long | 64 | 8
+Int | 32 | 4
+Short | 16 | 2
+Byte | 8 | 1
+
+- Kotlin의 숫자 데이터 타입은 모두 Number Class의 Sub-Class입니다.
+- 숫자를 읽기 편하게 하기 위한 목적으로 언더바(_)를 사용할 수 있습니다.  
+: `val num = 1_000_000` == `val num = 1000000`
+- 기본적인 사용은 Java와 비슷합니다.
+```
+val n1: Byte = 0b00001011 // 0b : Binaries
+val n2: Int = 123         // Decimals
+val n3: Int = 0x0F        // 0x : Hexadecimals
+val n4: Long = 10L        // Long은 L
+val n5: Double = 10.0     // 실수 기본형은 Double
+val n6: Double = 123.5e10 // e 표현법 가능
+val n7: Float = 10.0f     // Float는 f, F
+```
+
+<br>
+
+### 2. 문자 데이터 타입
+<br>
+숫자 데이터 타입은 모두 Number 클래스의 하위 클래스입니다.  
+따라서 문자 데이터 타입은 Number 타입과 호환되지 않습니다.  
+<br>
+- 문자를 숫자로 표현할 수 없습니다.  
+```
+val ch = 'A'
+if (ch == 1){ } // 이러한 표현 안돼요!
+```
+- Char은 ('')으로 묶어서 표현합니다.  
+`val ch: Char = 'A'`
+- String은 Char의 배열 `Char str[i]` 입니다.
+  - $를 이용해 변수나 연산식의 결과 등을 포함할 수 있습니다.
+  ```
+  val name = "MINA"
+  println("My name is $name")
+  > 출력 결과
+  My name is MINA
+  ```
+  - ("")으로 묶어서 표현하면 escaped string입니다.  
+  문자열 내에서 `\n`을 명시적으로 추가해야 개행됩니다.
+  - (""" """)으로 묶어서 표현하면 raw string입니다.  
+  키보드에서 입력한 엔터 등이 그대로 적용됩니다.
+  ```
+  val str1: String = "Hello!\nMINA"
+  val str2: String = """Bye
+  MINA"""
+  println(str1)
+  println(str2)
+  > 출력 결과
+  Hello
+  MINA
+  Bye
+  MINA
+  ```
+
+<br>
+
+### 3. 논리 데이터 타입
+
+논리 데이터 타입은 `Boolean`을 사용하며 사용법은 기존의 언어들과 비슷합니다.
+
+- 논리 연산자를 사용할 수 있습니다.
+  - || : 논리합
+  - && : 논리곱
+  - ! : 부정
+
+- false / true 값을 표현하는 타입입니다.
+
+## 새로운 데이터 타입
+----
+
+### 1. Any 타입
+
+Any 타입은 모든 데이터 타입의 최상위 클래스입니다.  
+즉, Any 타입을 선언하면 모든 타입의 변수를 받을 수 있습니다.  
+
+### 2. nullable 타입
+
+지난 포스팅에서 다루었듯이 Kotlin에서는 null을 사용하기 위해 별도의 지정(물음표, ?)을 사용합니다.  
+이때, 주의해야 할 점은 Non-nullable 타입은 nullable 타입에 대입할 수 있지만 반대의 경우 허용되지 않는다는 점입니다.  
+
+Any 타입이 모든 데이터 타입의 최상위 클래스라고 하더라도 nullable 타입을 대입하기 위해서는 ?를 붙여야 합니다.
+
+```
+// 이 경우 허용됩니다.
+var num1: Int = 10
+var num2: Int? = num1
+
+// 이 경우 허용되지 않습니다.
+var num3: Int? = 30
+var num4: Int = num3
+```
+
+### 3. Unit & Nothing 타입
+
+이 두 가지 타입은 유의미한 데이터를 저장하는 타입이 아닙니다.  
+제네릭을 이용할 때, 특수한 상황을 나타내는 타입입니다.  
+따라서 구체적인 설명은 이후 제네릭을 다룬 뒤에 이루어지겠지만, 앞으로 계속 사용될 타입이기 때문에 대략적인 개념을 설명하고 넘어가도록 하겠습니다.  
+
+- Unit은 주로 함수의 반환 타입에 이용됩니다.
+  - Unit은 오직 kotlin.Unit만을 대입할 수 있는 특수 타입입니다.
+  - 이는 의미있는 반환값이 없다는 의미로 사용되며 Java의 void 역할을 합니다.
+  - 다만 이는 예약어가 아니라 데이터 타입입니다.
+
+
+- Noting은 주로 함수의 반환 타입이나 프로퍼티 타입에 사용됩니다.
+  - Nothing에는 오직 null만 대입할 수 있습니다.
+  - 함수의 반환 타입으로 설정하여 명시적으로 반환이 없음을 나타냅니다. 따라서 유지보수가 쉬워집니다.
+  - Nothing은 null이기 때문에 어떤 프로퍼티 타입에도 대입할 수 있기 때문에 제네릭에서 이용됩니다.
+
+----
+[참고도서]
+- 강성윤. 깡샘의 코틀린 프로그래밍. 루비페이퍼
+- 이난주. 핵심 문법과 예제로 배우는 코틀린. 로드북
+- 드미트리 제메로프 & 스메트라나 아사코바. Kotlin in Action. MANNING, 에이콘
+- 심재철. 핵심만 골라 배우는 코틀린 프로그래밍. Jpub
