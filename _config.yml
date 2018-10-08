@@ -18,6 +18,11 @@ author:
   name:           'mina'
   url:            
 
+# disque comments are broken if you send http:// along with url, this url is same
+# Deleting the value would remove it from footer.
+disqus_url: https://zoomina.disqus.com/
+disqus_id: zoomina
+
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
