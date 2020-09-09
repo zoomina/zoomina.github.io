@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2020-1학기 인지과학 관련 영화에 대한 인지과학적 해석 - Her"
+title: "[2020-1학기] 인지과학 관련 영화에 대한 인지과학적 해석 - Her"
 date: 2020-09-09
 categories: Psychology
 sitemap :
