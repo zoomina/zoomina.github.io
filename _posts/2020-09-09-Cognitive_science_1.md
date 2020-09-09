@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2020-1학기 인지과학 응용의 대표적 사례에 대한 개인의 생각"
+title: "[2020-1학기] 인지과학 응용의 대표적 사례에 대한 개인의 생각"
 date: 2020-09-09
 categories: Psychology
 sitemap :
