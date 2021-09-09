@@ -13,6 +13,7 @@ tags:   Activity, elice_supporters
 <br>
 <br>
 
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" 
@@ -41,6 +42,7 @@ tags:   Activity, elice_supporters
   <script src="cardnews/script_9.js">
   </script>
 </body>
+</html>
 
 <br>
 <br>
