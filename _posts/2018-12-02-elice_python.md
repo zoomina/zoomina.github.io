@@ -24,16 +24,16 @@ tags:   Activity, elice_supporters
   <div class="container">
     <div class="album">
       <div class="images">
-        <img src="images/cardnews/python0.png">
-        <img src="images/cardnews/python1.png">
-        <img src="images/cardnews/python2.png">
-        <img src="images/cardnews/python3.png">
-        <img src="images/cardnews/python4.png">
-        <img src="images/cardnews/python5.png">
-        <img src="images/cardnews/python6.png">
-        <img src="images/cardnews/python7.png">
-        <img src="images/cardnews/python8.png">
-        <img src="images/cardnews/python9.png">
+        <img src="/images/cardnews/python0.png">
+        <img src="/images/cardnews/python1.png">
+        <img src="/images/cardnews/python2.png">
+        <img src="/images/cardnews/python3.png">
+        <img src="/images/cardnews/python4.png">
+        <img src="/images/cardnews/python5.png">
+        <img src="/images/cardnews/python6.png">
+        <img src="/images/cardnews/python7.png">
+        <img src="/images/cardnews/python8.png">
+        <img src="/images/cardnews/python9.png">
       </div>
     </div>
     <button class="prev">PREV</button>
