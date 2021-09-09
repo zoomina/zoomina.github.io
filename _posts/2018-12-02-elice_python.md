@@ -2,7 +2,7 @@
 layout: post
 title:  "/*elice*/ 서포터즈 2팀 카드뉴스 - Python"
 date:   2018-12-02
-image:  cardnews/python0.png
+image:  cardnews_python.png
 tags:   Activity, elice_supporters
 ---
 
@@ -13,7 +13,6 @@ tags:   Activity, elice_supporters
 <br>
 <br>
 
-<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" 
@@ -42,7 +41,6 @@ tags:   Activity, elice_supporters
   <script src="cardnews/script_9.js">
   </script>
 </body>
-</html>
 
 <br>
 <br>
