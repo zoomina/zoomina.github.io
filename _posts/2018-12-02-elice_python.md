@@ -19,16 +19,16 @@ content="width=device-width, initial-scale=1.0">
 <div class="container">
 <div class="album">
 <div class="images">
-<img src="cardnews/python0.png">
-<img src="cardnews/python1.png">
-<img src="cardnews/python2.png">
-<img src="cardnews/python3.png">
-<img src="cardnews/python4.png">
-<img src="cardnews/python5.png">
-<img src="cardnews/python6.png">
-<img src="cardnews/python7.png">
-<img src="cardnews/python8.png">
-<img src="cardnews/python9.png">
+<img src="/images/cardnews/python0.png">
+<img src="/images/cardnews/python1.png">
+<img src="/images/cardnews/python2.png">
+<img src="/images/cardnews/python3.png">
+<img src="/images/cardnews/python4.png">
+<img src="/images/cardnews/python5.png">
+<img src="/images/cardnews/python6.png">
+<img src="/images/cardnews/python7.png">
+<img src="/images/cardnews/python8.png">
+<img src="/images/cardnews/python9.png">
 </div>
 </div>
 <button class="prev">PREV</button>
