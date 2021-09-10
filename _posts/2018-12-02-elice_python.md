@@ -6,47 +6,41 @@ image:  cardnews_python.png
 tags:   Activity, elice_supporters
 ---
 
-## 프로그래밍의 새로운 패러다임 파이썬!
-
-<br>
-<br>
-<br>
-<br>
-
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" 
-content="width=device-width, initial-scale=1.0">
-<link href="cardnews/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <link href="cardnews/styles.css" rel="stylesheet">
+  <title>"프로그래밍의 새로운 패러다임 파이썬!"</title>
 </head>
 <body>
-<div class="container">
-<div class="album">
-<div class="images">
-<img src="/images/cardnews/python0.png">
-<img src="/images/cardnews/python1.png">
-<img src="/images/cardnews/python2.png">
-<img src="/images/cardnews/python3.png">
-<img src="/images/cardnews/python4.png">
-<img src="/images/cardnews/python5.png">
-<img src="/images/cardnews/python6.png">
-<img src="/images/cardnews/python7.png">
-<img src="/images/cardnews/python8.png">
-<img src="/images/cardnews/python9.png">
-</div>
-</div>
-<button class="prev">PREV</button>
-<button class="next">NEXT</button>  
-</div>
-<script src="cardnews/script_9.js">
-</script>
+  <div class="container">
+    <div class="album">
+      <div class="images">
+        <img src="cardnews/python0.png">
+        <img src="cardnews/python1.png">
+        <img src="cardnews/python2.png">
+        <img src="cardnews/python3.png">
+        <img src="cardnews/python4.png">
+        <img src="cardnews/python5.png">
+        <img src="cardnews/python6.png">
+        <img src="cardnews/python7.png">
+        <img src="cardnews/python8.png">
+        <img src="cardnews/python9.png">
+      </div>
+    </div>
+    <button class="prev">PREV</button>
+    <button class="next">NEXT</button>  
+  </div>
+  <script>
+    let num_img = document.images.length;
+  </script>
+  <script src="cardnews/script.js"></script>
 </body>
 </html>
 
-<br>
-<br>
-<br>
 <br>
 
 ### 카드뉴스 내용 전체

@@ -4,7 +4,7 @@ const IMAGE_WIDTH = 740;
 const prevBtn = document.querySelector(".prev")
 const nextBtn = document.querySelector(".next")
 const images = document.querySelector(".images")
- 
+
 function prev(){
   if(curPos > 0){
     nextBtn.removeAttribute("disabled")
@@ -17,13 +17,13 @@ function prev(){
   }
 }
 function next(){
-  if(curPos < 9){
+  if(curPos < num_img-1){
     prevBtn.removeAttribute("disabled")
     postion -= IMAGE_WIDTH;
     images.style.transform = `translateX(${postion}px)`;
     curPos = curPos + 1;
   }
-  if(curPos == 9){
+  if(curPos == num_img-1){
     nextBtn.setAttribute('disabled', 'true')
   }
 }
