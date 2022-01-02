@@ -3,7 +3,7 @@ layout: post
 title:  "/*elice*/ 서포터즈 2팀 카드뉴스 - JAVA"
 date:   2018-12-26
 image:  cardnews_java.png
-tags:   Activity, elice_supporters, cardnews
+tags:   Activity elice_supporters cardnews
 ---
 
 

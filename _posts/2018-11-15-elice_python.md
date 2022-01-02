@@ -3,7 +3,7 @@ layout: post
 title:  "/*elice*/ 서포터즈 2팀 카드뉴스 - Python"
 date:   2018-11-15
 image:  cardnews_python.png
-tags:   Activity, elice_supporters, cardnews
+tags:   Activity elice_supporters cardnews
 ---
 
 

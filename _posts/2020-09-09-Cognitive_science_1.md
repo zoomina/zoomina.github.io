@@ -3,7 +3,7 @@ layout: post
 title: "[2020-1학기] 인지과학 응용의 대표적 사례에 대한 개인의 생각에 대한 에세이"
 date: 2020-09-09
 image:  cognitive_science1.png
-tags: Pysychology, cognitive_science
+tags: Pysychology cognitive_science
 ---
 
 ## 뉴로모픽 칩 Loihi : 하드웨어 성능 향상에 따른 인공지능 성능 개선
