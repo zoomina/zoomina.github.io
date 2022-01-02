@@ -1,21 +1,14 @@
 ---
 layout: post
 title:  "/*elice*/ 서포터즈 2팀 카드뉴스 - Python"
-date:   2018-12-02
+date:   2018-11-15
 image:  cardnews_python.png
-tags:   Activity, elice_supporters
+tags:   Activity, elice_supporters, cardnews
 ---
 
 
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" 
-content="width=device-width, initial-scale=1.0">
 <link href="cardnews/styles.css" rel="stylesheet">
-<title>"프로그래밍의 새로운 패러다임 파이썬!"</title>
-</head>
-<body>
+
 <div class="container">
 <div class="album">
 <div class="images">
@@ -38,8 +31,7 @@ content="width=device-width, initial-scale=1.0">
 let num_img = document.images.length;
 </script>
 <script src="cardnews/script.js"></script>
-</body>
-</html>
+
 
 <br>
 
