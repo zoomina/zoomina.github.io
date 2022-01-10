@@ -2,7 +2,7 @@
 layout: post
 title:  "심리학으로 읽어보는 딥러닝 - 뉴런과 퍼셉트론"
 date:   2018-12-13
-image:  SQLD.jpg
+image:  deepPsy1.jpg
 tags:   [Pysychology, AI, DeepLearning]
 sitemap:
     changefreq: daily
