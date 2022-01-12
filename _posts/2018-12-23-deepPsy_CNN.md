@@ -236,5 +236,7 @@ Vision 분야의 내용을 보면 교수님들의 투닥거림이 머리 속을 
 > E.Bruce Goldstein, 감각과 지각 7판, cengage learning  
 > Jamse W. Kalat, 생물심리학 13판, cengage learning  
 > 사이토 고키, 밑바닥부터 시작하는 딥러닝, 한빛미디어  
+> 김진중, 골빈해커의 3분 딥러닝, 한빛미디어
+> 오키타니 타키유키, 딥러닝 제대로 시작하기, Jpub
 > Yann LeCun, Gradient-Based Learning Applied to Document Recognition
 > Alex Krizhevsky, ImageNet Classification with Deep Convolutional Neural Networks
