@@ -2,7 +2,7 @@
 layout: post
 title:  "심리학으로 읽어보는 딥러닝 - 강화학습 DQN"
 date:   2019-03-23
-image:  SQLD.jpg
+image:  deepPsy3.png
 tags:   [Pysychology, AI, DeepLearning]
 sitemap:
     changefreq: daily
