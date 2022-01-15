@@ -3,7 +3,7 @@ layout: post
 title:  "심리학으로 읽어보는 딥러닝 - 시각과 CNN"
 date:   2018-12-23
 image:  deepPsy2.JPG
-tags:   [Pysychology, AI, DeepLearning]
+tags:   [Psychology, AI, DeepLearning]
 sitemap:
     changefreq: daily
     priority: 1.0
