@@ -23,6 +23,9 @@ image: about.jpg
   - [카드뉴스 : Python](https://zoomina.github.io/2018/11/15/elice_python/)
   - [카드뉴스 : C언어](https://zoomina.github.io/2018/12/02/elice_c/)
   - [카드뉴스 : Java](https://zoomina.github.io/2018/12/26/elice_java/)
+  - [추가연재 : 심리학으로 읽어보는 딥러닝 - 뉴런과 퍼셉트론](../_posts/2018-12-13-deepPsy_perceptron.md)
+  - [추가연재 : 심리학으로 읽어보는 딥러닝 - 시각과 CNN](../_posts/2018-12-23-deepPsy_CNN.md))
+  - [추가연재 : 심리학으로 읽어보는 딥러닝 - 강화학습 DQN](../_posts/2019-03-23-deepPsy_DQN.md)
 - 2018 : 한국심리학회 후원 대학생 심리연합 UMA 8기 홍보부 팀장
   - [포스터](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUMA2011%2Fposts%2F1814847388594935&show_text=true&width=500)
   - [카드뉴스 : 행위자-관찰자 편향](https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUMA2011%2Fposts%2F1799843196762021&show_text=true&width=500)
