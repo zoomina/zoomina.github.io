@@ -1,5 +1,5 @@
 ---
-layout: tag_page
+layout: page
 title: tags
 permalink: /page/
 image: about.jpg
