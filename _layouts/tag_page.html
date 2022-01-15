@@ -2,14 +2,16 @@
 layout: default
 ---
 
-<div class="post">
-  <h1>Tag: {{ page.tag }}</h1>
-  <ul>
-  {% for post in site.tags[page.tag] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-      {{ post.description }}
-    </li>
-  {% endfor %}
-  </ul>
+<div class="arhive-head">
+  <div class="container">
+    <h1 class="archive-title">Tag: <span>{{ page.tag }}</span></h1>
   </div>
-  <hr>
+</div>
+
+
+{% for post in page.posts %}
+  {% include article-content.html %}
+{% endfor %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7893609196204230"
+     crossorigin="anonymous"></script>
