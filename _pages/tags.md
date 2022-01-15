@@ -5,17 +5,15 @@ permalink: /page/
 image: about.jpg
 ---
 
-<div class="archive-head">
+<ul class="tag-cloud">
 {% for tag in site.tags %}
-  <div class="container">
-    <h1 class="archive-title">
-      <a href="#{{ tag | first | slugize }}">
+  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
     </a> &nbsp;&nbsp;
-    </h1>
-  </div>
+  </span>
 {% endfor %}
-</div>
+</ul>
 
 <div id="archives">
 {% for tag in site.tags %}
