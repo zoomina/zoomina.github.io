@@ -2,7 +2,7 @@
 layout: post
 title:  "코드스테이츠 GMB 7기 - Persona와 User Journey Map"
 date:   2022-01-19
-image:  [SWOT_STP.png](https://postfiles.pstatic.net/MjAyMjAxMTlfNjgg/MDAxNjQyNTc2NDQ3NDE3.9iH79ONWkakDZrTYFCZyYT18-O7a7KsDCLSmhSB9eIUg.Z9gbrmgW_xlnNSTFOpTmtqIaBCvYXMnVifSuNudR5UQg.PNG.clover_328/image.png?type=w966)
+image:  Persona_UJM.png
 tags:   [Activity, Marketing, BrandStory, CodeStates]
 sitemap:
     changefreq: daily
