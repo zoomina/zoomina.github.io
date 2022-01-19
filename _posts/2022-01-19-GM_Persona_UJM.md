@@ -19,7 +19,7 @@ sitemap:
 
 <br>
 
-<img src="https://postfiles.pstatic.net/MjAyMjAxMTlfNjgg/MDAxNjQyNTc2NDQ3NDE3.9iH79ONWkakDZrTYFCZyYT18-O7a7KsDCLSmhSB9eIUg.Z9gbrmgW_xlnNSTFOpTmtqIaBCvYXMnVifSuNudR5UQg.PNG.clover_328/image.png?type=w966">
+![image](https://user-images.githubusercontent.com/39390943/150230089-6ce610b4-e04e-494a-9c6c-3f963f4428ba.png)
 
 <br>
 
@@ -70,7 +70,7 @@ sitemap:
 
 <br>
 
-<img src="https://postfiles.pstatic.net/MjAyMjAxMTlfMTMz/MDAxNjQyNTkzNjI2ODY4.UcDp9kqPPtD2BT5SWj6deuXeTPFWYFUtPNmi_P_emzEg.CbhCSwC32zWkZfm556RVbfGfFy7moeNzFSPycqExyO4g.PNG.clover_328/%EA%B7%B8%EB%A6%BC1.png?type=w966">
+![image](https://user-images.githubusercontent.com/39390943/150230137-cc38cd6b-e308-48fd-b681-f2e15f33af82.png)
 
 <br>
 
