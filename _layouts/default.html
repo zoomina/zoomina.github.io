@@ -9,6 +9,10 @@
   {% include google-analytics.html %}
   {% endif %}
 
+  {% if site.data.settings.google-tag-manager %}
+  {% include gtag_body.html %}
+  {% endif %}
+
   {% include header.html %}
 
   <!-- begin content -->
