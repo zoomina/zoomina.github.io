@@ -36,7 +36,7 @@ instagram-profile: # Add instagram username
 
 #-------------------------------
 # Google Analytics
-google-analytics: UA-72947924-1 # Add your identifier. For example UA-99631805-1.
+google-analytics: #UA-72947924-1 # Add your identifier. For example UA-99631805-1.
 google-tag-manager: GTM-56N3TKD
 
 #-------------------------------
