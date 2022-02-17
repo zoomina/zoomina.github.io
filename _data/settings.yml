@@ -42,3 +42,7 @@ google-tag-manager: GTM-56N3TKD
 #-------------------------------
 # Newsletter
 mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+#--------------------------------
+# Facebook Pixel
+facebook-pixel : 3032398860306328
