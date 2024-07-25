@@ -24,7 +24,6 @@ defaults:
 
 include:
   - _pages
-  - _categories
 
 
 # Tags
