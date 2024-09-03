@@ -2,7 +2,7 @@
 layout: post
 title:  "아임웹으로 제작된 랜딩페이지의 전환분석을 위한 GTM 설계"
 date:   2023-10-12
-image:  GTM.jpg
+image:  GTM.png
 tags:   [Marketing, Data]
 sitemap:
     changefreq: daily
