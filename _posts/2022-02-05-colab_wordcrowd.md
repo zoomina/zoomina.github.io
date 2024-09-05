@@ -50,9 +50,13 @@ AI 관련 인턴 근무할 때, 대리님이나 차장님도 웹 소스 직접 �
 하지만 트위터 크롤링은 입문자의 토이 프로젝트로도 많이 사용되는만큼 관련 라이브러리가 많기 때문에 키워드 기반 트위터 크롤링만 다루려고 합니다.  
 무우울론 이것도 이미 예전 포스팅으로 다룬 적 있지만, 이번에는 정말 기본부터 시작한다는 느낌으로 진행해보겠습니다.  
 
+<br>
+
 ```
 !pip install scweet
 ```
+
+<br>
 
 크롤링에 사용되는 모듈은 scweet입니다.  
 원래 사용하던 모듈은 막혀서 새롭게 찾은 모듈이예요.  
@@ -79,6 +83,8 @@ until = 'input_end_date'    # 'YYYY-MM-DD' or None
 
 crowl_df = scrape(words=keyword, since=since, until=until, from_account=None, interval=1, headless=False, display_type='Top', save_images=False, filter_replies=True)
 ```
+
+<br>
 
 keyowrd 옆의 input_keyword 부분에 (작은따옴표 안쪽에!!) 여러분이 검색하고자 하는 키워드를 입력하세요!  
 ​
@@ -109,8 +115,12 @@ until 부분에는 여러분이 긁어오고 싶은 날짜의 끝지점을 작�
 ! pip install konlpy
 ```
 
+<br>
+
 konlpy는 한국어 어간분석을 도와줄 수 있는 모듈입니다.  
 아까와 같은 방법으로 모듈을 설치합니다.  
+
+<br>
 
 ```python
 from konlpy.tag import Twitter
@@ -121,6 +131,8 @@ file_name = 'file_name'
 my_df = pd.read_csv(f"/content/drive/MyDrive/output/{file_name}.csv", encoding='cp949')
 my_df = pd.read_excel(f"/contetn/drive/MyDrive/output/{file_name}.xlsx")
 ```
+
+<br>
 
 우리는 트위터를 긁어왔으니 konlpy 중에서도 Twitter를 활용합니다.  
 pandas는 우리가 엑셀 파일을 불러오고 저장하는 데에 도움을 줄거예요.  
@@ -135,6 +147,8 @@ pandas는 우리가 엑셀 파일을 불러오고 저장하는 데에 도움을 
 그리고 보통 utf-8 인코딩을 사용하는데, MS에서 용량을 줄이기 위해 csv 파일에서 cp949 방식의 인코딩을 사용하기 때문에 csv 파일에서만 인코딩을 따로 설정해주었습니다.  
 이해 안되셨다구요? 상관 없습니다. 그냥 둘 중 하나 파일 확장자 보고 선택하신 뒤 나머지 지우시면 돼요.  
 
+<br>
+
 ```python
 twitter = Twitter()
 
@@ -147,9 +161,13 @@ for tweet in my_df[col_name]:
       noun_adj_list.append(s)
 ```
 
+<br>
+
 이 코드는 엑셀의 파일 내에서 원하는 데이터에서 명사와 형용사를 골라내주는 친구입니다.  
 엑셀에서 원하는 데이터의 열을 복사해서 `col_name`에 입력해주세요.  
 따옴표 모양은 크게 관계 없지만 되도록이면 코드 안에 있는 작은 따옴표 안에 적어주세요. 안그러면 그냥 제가 불편해요.  
+
+<br>
 
 ```python
 from collections import Counter
@@ -159,6 +177,8 @@ count_df = Counter(noun_adj_list)
 re_df = pd.DataFrame.from_dict(count_df, orient='index')
 re_df.to_excel("/content/drive/MyDrive/output/count_result.xlsx")
 ```
+
+<br>
 
 이제 드디어 저장된 단어들 수를 세어 저장할 타이밍입니다.  
 저는 개인적으로 csv를 선호하지만, 여러분은 저처럼 불편하지 마시라고 xlsx로 저장하는 코드로 수정해봤어요.  
