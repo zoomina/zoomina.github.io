@@ -11,6 +11,7 @@ sitemap:
 
 # YouTube Data API v3
 : Google Cloud Platform  
+
 ---
 
 우선 유튜브 API를 사용하기 위해서는 Google Cloud Platform(GCP)에서 개발자 등록이 돼있어야 할 거예요(아마..?)  

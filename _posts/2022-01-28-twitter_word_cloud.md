@@ -21,6 +21,7 @@ sitemap:
 
 # 트위터 크롤링
 : scweet  
+
 ---
 
 <br>
@@ -70,6 +71,7 @@ csv는 아래와 같은 형태로 저장이 되는데, 저에게 필요한 것�
 
 # 어간 분석
 : konlpy  
+
 ---
 
 <br>
@@ -175,6 +177,7 @@ Counter 객체를 DataFrame 형태로 변환한 뒤, csv형태로 저장합니�
 <br><br>
 
 # Tableau를 이용한 Word cloud 생성
+
 ---
 
 <br>
