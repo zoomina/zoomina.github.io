@@ -10,7 +10,7 @@ sitemap:
 ---
 
 # YouTube Data API v3
-: Google Cloud Platform
+: Google Cloud Platform  
 ---
 
 우선 유튜브 API를 사용하기 위해서는 Google Cloud Platform(GCP)에서 개발자 등록이 돼있어야 할 거예요(아마..?)  
@@ -39,11 +39,18 @@ sitemap:
 
 자세한 내용은 Data API 문서에 서술되어 있으므로, 저는 이번에 사용한 기능들 위주의 코드만 소개할 예정입니다.  
 
+<br><br>
+
 ## Python으로 YouTube Data API 사용하기
+---
+
+<br>
 
 ```
 pip install google-api-python-client
 ```
+
+<br>
 
 Python에서 YouTube Data API를 사용하기 위해서는 google-api-python-client라는 라이브러리를 설치하셔야 합니다.  
 
@@ -193,12 +200,12 @@ top_n:
 
 - Tableau 그래프 작성
 
-[Tableau로 간단하게 라인 그래프 만들기](./2022-01-24-Tableau_line_graph.md)
+[Tableau로 간단하게 라인 그래프 만들기](https://zoomina.github.io/2022/01/24/Tableau_line_graph/)
 
 <br>
 
 - 워드 클라우드 생성
 
-[colab부터 시작하는 어간분석](./2022-02-05-colab_wordcrowd.md)  
+[colab부터 시작하는 어간분석](https://zoomina.github.io/2022/02/05/colab_wordcrowd/)  
 
-[트위터 데이터를 활용한 Word cloud](./2022-01-28-twitter_word_cloud.md)  
+[트위터 데이터를 활용한 Word cloud](https://zoomina.github.io/2022/01/28/twitter_word_cloud/)  
