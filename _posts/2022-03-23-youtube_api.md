@@ -35,7 +35,7 @@ sitemap:
 
 일별 할당량이 1만 쿼터(?)라고 알고 있는데, 제가 하루만에 6개 채널에 대한 분석을 진행하고 싶어서 최대한 계산을 많이 하고 최적화를 시키기 위한 노력을 해봐야 할 것 같습니다.  
 
-[![image](https://github.com/user-attachments/assets/986e606b-cb77-44ee-bc1c-e5aaf2b7c4ce)](​https://developers.google.com/youtube/v3/getting-started?hl=ko)
+[![image](https://github.com/user-attachments/assets/986e606b-cb77-44ee-bc1c-e5aaf2b7c4ce)](https://developers.google.com/youtube/v3/getting-started?hl=ko)
 
 자세한 내용은 Data API 문서에 서술되어 있으므로, 저는 이번에 사용한 기능들 위주의 코드만 소개할 예정입니다.  
 
