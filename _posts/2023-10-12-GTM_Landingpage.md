@@ -30,7 +30,7 @@ sitemap:
 이번 포스팅에서 다루게 될 페이지는 아임웹으로 작성된 상품 소개 페이지로, 상당히 긴 페이지였습니다. 아임웹으로 작성된 페이지는 `<body>` 내에서 PC버전과 Mobile 버전을 위한 element들이 번갈아가며 배치되어 있습니다. 구조를 대략적으로 그려보자면 이렇게 표현할 수 있겠네요.  
 
 
-![Untitled](https://github.com/user-attachments/assets/1f0f2fd8-97c0-44ce-aadc-99bbe623bb5b)
+![Image](https://github.com/user-attachments/assets/e3bb095e-29d1-4eec-b0fa-c9641441a13e)
 
 
 각각의 블록은 디바이스 환경에 맞추어 화면에 표시됩니다. PC로 접속할 경우 PC 블록만 활성화되고 MO 블록은 hide처리가 됩니다. 반대로 모바일 환경에서는 MO 블록만 활성화가 되는 구조이죠. 따라서 GTM에서 이벤트를 설정할 때에 각 블록에 대한 이벤트를 별도로 작성해야 할 필요가 있었습니다.
