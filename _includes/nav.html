@@ -19,32 +19,22 @@
           <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
-          <a href="#portfolio">{% t nav.portfolio %}</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li class="page-scroll">
-          <a href="#about">{% t nav.about %}</a>
+          <a href="#about">About</a>
         </li>
         <li class="page-scroll">
-          <a href="#contact">{% t nav.contact %}</a>
+          <a href="#contact">Contact</a>
         </li>
         <!-- Language Toggle -->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            {% if site.lang == 'ko' %}한국어{% else %}English{% endif %} <span class="caret"></span>
+            <span id="current-lang">English</span> <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-              <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">
-                {% if page.lang == 'ko' %}한국어{% else %}English{% endif %}
-              </a></li>
-            {% endfor %}
-            
-            {% if site.lang == 'ko' %}
-              <li><a href="{{ site.baseurl_root }}">English</a></li>
-            {% else %}
-              <li><a href="{{ site.baseurl_root }}/ko/">한국어</a></li>
-            {% endif %}
+            <li><a href="#" onclick="switchLanguage('en')">English</a></li>
+            <li><a href="#" onclick="switchLanguage('ko')">한국어</a></li>
           </ul>
         </li>
       </ul>
