@@ -16,7 +16,7 @@
             <h2>{{ post.title.en }}</h2>
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            <p style="text-align: left; white-space: pre-line; line-height: 1.6;">{{ post.description.en }}</p>
+            <div style="text-align: left; line-height: 1.6;">{{ post.description.en | markdownify }}</div>
             
             <!-- Project Links as CTA Buttons -->
             {% if post.links %}

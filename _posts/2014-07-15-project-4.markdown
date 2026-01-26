@@ -12,7 +12,9 @@ title:
   ko: "Feels 웨어러블 기기 시장 분석 및 B2B·B2C 마케팅 전략 제언"
 description:
   en: |
-    Validating Market Growth and Campaign Timing through Google Trends–Based Demand Analysis
+    ### Validating Market Growth and Campaign Timing through Google Trends–Based Demand Analysis
+
+    #Python #Time Series Analysis #Trend Extraction #Seasonality Decomposition #Search Demand Analysis #EDA
 
     This project analyzes the wearable healthcare device Feels, with a focus on quantitatively validating market growth and optimal marketing timing using real demand data, rather than relying solely on qualitative market narratives.
     While academic papers and industry reports were referenced as supporting context, the core analysis is based on five years of Google Trends search volume data, collected and analyzed directly.
@@ -29,7 +31,9 @@ description:
 
     This project demonstrates how search behavior data can be translated into actionable marketing decisions, bridging data analysis and business strategy.
   ko: |
-    Google Trends 기반 수요 분석으로 검증한 웨어러블 헬스케어 시장의 성장성과 캠페인 타이밍
+    ### Google Trends 기반 수요 분석으로 검증한 웨어러블 헬스케어 시장의 성장성과 캠페인 타이밍
+    
+    #Python #Time Series Analysis #Trend Extraction #Seasonality Decomposition #Search Demand Analysis #EDA
     
     본 프로젝트는 웨어러블 헬스케어 기기 Feels를 대상으로, 정성적 시장 논의에 그치지 않고 실제 수요 데이터 기반으로 시장의 성장성과 마케팅 집행 시점을 검증하는 데 초점을 맞췄습니다.
     논문·산업 리포트에서 제시하는 시장 전망을 보조 지표로 활용하되, 핵심 분석은 Google Trends의 5년치 검색량 데이터를 직접 수집·가공하여 수행했습니다.
