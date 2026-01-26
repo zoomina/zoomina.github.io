@@ -1,7 +1,11 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
+  aria-hidden="true"
+  data-title-en="{{ post.title.en | escape }}"
+  data-title-ko="{{ post.title.ko | escape }}"
+  data-description-en="{{ post.description.en | markdownify | escape }}"
+  data-description-ko="{{ post.description.ko | markdownify | escape }}">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
