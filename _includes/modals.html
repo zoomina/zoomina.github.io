@@ -22,7 +22,10 @@
             {% if post.links %}
             <div class="project-links text-center" style="margin: 30px 0;">
               {% for link in post.links %}
-              <a href="{{ link.url }}" target="_blank" class="btn btn-lg btn-outline" style="margin: 5px;"
+              <a href="{{ link.url }}" target="_blank" class="btn btn-lg btn-outline" 
+                 style="margin: 5px; border: solid 2px #{{ site.color.primary }}; color: #{{ site.color.primary }}; background: transparent;"
+                 onmouseover="this.style.backgroundColor='#{{ site.color.primary }}'; this.style.color='#fff';"
+                 onmouseout="this.style.backgroundColor='transparent'; this.style.color='#{{ site.color.primary }}';"
                  data-en="{% if link.title.en %}{{ link.title.en }}{% else %}{{ link.title }}{% endif %}"
                  data-ko="{% if link.title.ko %}{{ link.title.ko }}{% else %}{{ link.title }}{% endif %}">
                 <i class="fa fa-external-link"></i> 

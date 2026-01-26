@@ -297,22 +297,6 @@ section.success {
     background: #fff;
 }
 
-/* CTA buttons in portfolio modals */
-.portfolio-modal .project-links .btn-outline {
-    border: solid 2px #{{ site.color.primary }};
-    color: #{{ site.color.primary }};
-    background: transparent;
-}
-
-.portfolio-modal .project-links .btn-outline:hover,
-.portfolio-modal .project-links .btn-outline:focus,
-.portfolio-modal .project-links .btn-outline:active,
-.portfolio-modal .project-links .btn-outline.active {
-    border: solid 2px #{{ site.color.primary }};
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
