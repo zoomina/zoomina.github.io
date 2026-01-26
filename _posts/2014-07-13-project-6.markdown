@@ -2,15 +2,24 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: submarine.png
+img: hanzzan.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 title:
-  en: "Submarine Project"
-  ko: "서브마린 프로젝트"
+  en: "hanzzan - Premium Liqure Newsletter"
+  ko: "한잔레터 - 프리미엄 주류 뉴스레터"
 description:
   en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
   ko: "이 영역을 사용하여 프로젝트를 설명하세요. 딥러닝 기반 예측 모델링 프로젝트로, 시계열 데이터를 활용한 수요 예측 시스템을 개발했습니다."
+links:
+  - title:
+      en: "Marketing Strategy Plan"
+      ko: "마케팅 전략 기획서"
+    url: "https://notch-stoplight-a63.notion.site/_-c1cb4ab8bdc44edc9e9edf733806e9b9?source=copy_link"
+  - title:
+      en: "Final Performance Report"
+      ko: "최종 성과 보고서"
+    url: "https://notch-stoplight-a63.notion.site/_-9a062bf1573c41a9b30237cdfa88a50b?source=copy_link"
 ---

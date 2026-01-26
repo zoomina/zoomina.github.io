@@ -2,14 +2,14 @@
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: safe.png
+img: emotale.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 title:
-  en: "Safe Project"
-  ko: "세이프 프로젝트"
+  en: "emo:)tale - Korean Sentiment Analysis Project"
+  ko: "emo:)tale - 한국어 자연어 감성 분석 프로젝트"
 description:
   en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
   ko: "이 영역을 사용하여 프로젝트를 설명하세요. 보안 데이터 분석 프로젝트로, 이상 거래 탐지 및 리스크 관리 시스템을 구축했습니다."

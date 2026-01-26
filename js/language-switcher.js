@@ -14,7 +14,13 @@ function switchLanguage(lang) {
     elements.forEach(element => {
         const text = element.getAttribute('data-' + lang);
         if (text) {
-            element.textContent = text;
+            // For CTA buttons, update the span inside
+            const span = element.querySelector('span');
+            if (span) {
+                span.textContent = text;
+            } else {
+                element.textContent = text;
+            }
         }
     });
     
@@ -34,20 +40,20 @@ function updatePortfolioModals(lang) {
             ko: { title: "케이크 프로젝트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 마케팅 캠페인 성과 분석 프로젝트로, ROI 최적화를 위한 데이터 기반 의사결정을 지원했습니다." }
         },
         3: {
-            en: { title: "Circus Project", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
-            ko: { title: "서커스 프로젝트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 고객 세그멘테이션 및 타겟팅 프로젝트로, 머신러닝을 활용한 개인화 추천 시스템을 구축했습니다." }
+            en: { title: "Shownote Brand Analysis", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
+            ko: { title: "쇼노트 기업 분석 리포트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 고객 세그멘테이션 및 타겟팅 프로젝트로, 머신러닝을 활용한 개인화 추천 시스템을 구축했습니다." }
         },
         4: {
-            en: { title: "Game Project", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
-            ko: { title: "게임 프로젝트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 게임 사용자 행동 분석 프로젝트로, 플레이어 리텐션 향상을 위한 데이터 기반 전략을 수립했습니다." }
+            en: { title: "feels Product Analysis", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
+            ko: { title: "feels 제품 분석", description: "이 영역을 사용하여 프로젝트를 설명하세요. 게임 사용자 행동 분석 프로젝트로, 플레이어 리텐션 향상을 위한 데이터 기반 전략을 수립했습니다." }
         },
         5: {
             en: { title: "Safe Project", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
             ko: { title: "세이프 프로젝트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 보안 데이터 분석 프로젝트로, 이상 거래 탐지 및 리스크 관리 시스템을 구축했습니다." }
         },
         6: {
-            en: { title: "Submarine Project", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
-            ko: { title: "서브마린 프로젝트", description: "이 영역을 사용하여 프로젝트를 설명하세요. 딥러닝 기반 예측 모델링 프로젝트로, 시계열 데이터를 활용한 수요 예측 시스템을 개발했습니다." }
+            en: { title: "hanzzan - Premium Liqure Newsletter", description: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam." },
+            ko: { title: "한잔레터 - 프리미엄 주류 뉴스레터", description: "이 영역을 사용하여 프로젝트를 설명하세요. 딥러닝 기반 예측 모델링 프로젝트로, 시계열 데이터를 활용한 수요 예측 시스템을 개발했습니다." }
         }
     };
     

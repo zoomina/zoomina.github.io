@@ -17,6 +17,21 @@
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             <p>{{ post.description.en }}</p>
+            
+            <!-- Project Links as CTA Buttons -->
+            {% if post.links %}
+            <div class="project-links text-center" style="margin: 30px 0;">
+              {% for link in post.links %}
+              <a href="{{ link.url }}" target="_blank" class="btn btn-lg btn-outline" style="margin: 5px;"
+                 data-en="{% if link.title.en %}{{ link.title.en }}{% else %}{{ link.title }}{% endif %}"
+                 data-ko="{% if link.title.ko %}{{ link.title.ko }}{% else %}{{ link.title }}{% endif %}">
+                <i class="fa fa-external-link"></i> 
+                <span>{% if link.title.en %}{{ link.title.en }}{% else %}{{ link.title }}{% endif %}</span>
+              </a>
+              {% endfor %}
+            </div>
+            {% endif %}
+            
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:

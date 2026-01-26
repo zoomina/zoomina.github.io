@@ -2,15 +2,20 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: feels.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 title:
-  en: "Game Project"
-  ko: "게임 프로젝트"
+  en: "feels Product Analysis"
+  ko: "feels 제품 분석"
 description:
   en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
   ko: "이 영역을 사용하여 프로젝트를 설명하세요. 게임 사용자 행동 분석 프로젝트로, 플레이어 리텐션 향상을 위한 데이터 기반 전략을 수립했습니다."
+links:
+  - title:
+      en: "Product Market Analysis Report"
+      ko: "제품 시장 분석 리포트"
+    url: "https://notch-stoplight-a63.notion.site/feel-1578cc8f66d3807fb61df9725db8cf33?source=copy_link"
 ---
