@@ -12,21 +12,21 @@ title:
   ko: "emo:)tale - 트위터 데이터 기반 한국어 다중 감정 분류 모델"
 description:
   en: |
-  ### KoBERT-Based Korean Multi-Class Emotion Classification + Hackathon Award
-  #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
-  <br>
-  This project fine-tunes KoBERT to classify Korean Twitter text into joy, sadness, anger, and fear, and validates the model performance.
-  The model reaches ~95% accuracy for joy/sadness/anger, while showing a notable performance drop for fear.
-  Building on this experience, I participated in the MZ CEC Emotion Dialogue Classification Hackathon, applied and improved the classification approach for conversational data, and placed 4th overall.
-  (Co-hosted by NIA and Mediazen)
+    ### KoBERT-Based Korean Multi-Class Emotion Classification + Hackathon Award
+    #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
+    <br>
+    This project fine-tunes KoBERT to classify Korean Twitter text into joy, sadness, anger, and fear, and validates the model performance.
+    The model reaches ~95% accuracy for joy/sadness/anger, while showing a notable performance drop for fear.
+    Building on this experience, I participated in the MZ CEC Emotion Dialogue Classification Hackathon, applied and improved the classification approach for conversational data, and placed 4th overall.
+    (Co-hosted by NIA and Mediazen)
   ko: |
-  ### KoBERT 기반 한국어 다중 감정 분류 모델 구축 및 해커톤 수상
-  #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
-  <br>
-  본 프로젝트는 트위터 텍스트를 대상으로 기쁨·슬픔·분노·공포 4가지 감정을 분류하는 KoBERT 모델을 구축하고 성능을 검증했습니다.
-  Fine-tuning 결과, 기쁨·슬픔·분노 감정에서 약 95% 수준의 정확도를 확인했으며, 공포 감정에서 성능 저하가 발생하는 패턴을 확인했습니다.
-  이 감정 분류 모델링 경험을 바탕으로 MZ CEC 감정 대화 분류 해커톤에 참가하여 분류 알고리즘을 적용 및 개선했고, 4등 입상했습니다.
-  (주관: NIA, Mediazen)
+    ### KoBERT 기반 한국어 다중 감정 분류 모델 구축 및 해커톤 수상
+    #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
+    <br>
+    본 프로젝트는 트위터 텍스트를 대상으로 기쁨·슬픔·분노·공포 4가지 감정을 분류하는 KoBERT 모델을 구축하고 성능을 검증했습니다.
+    Fine-tuning 결과, 기쁨·슬픔·분노 감정에서 약 95% 수준의 정확도를 확인했으며, 공포 감정에서 성능 저하가 발생하는 패턴을 확인했습니다.
+    이 감정 분류 모델링 경험을 바탕으로 MZ CEC 감정 대화 분류 해커톤에 참가하여 분류 알고리즘을 적용 및 개선했고, 4등 입상했습니다.
+    (주관: NIA, Mediazen)
 links:
   - title:
       en: "emo:)tale repository"
