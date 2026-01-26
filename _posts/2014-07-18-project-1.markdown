@@ -7,5 +7,10 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+title:
+  en: "Cabin Project"
+  ko: "캐빈 프로젝트"
+description:
+  en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+  ko: "이 영역을 사용하여 프로젝트를 설명하세요. 데이터 분석 및 시각화 프로젝트로, 고객 행동 패턴을 분석하고 인사이트를 도출하는 작업을 수행했습니다."
 ---

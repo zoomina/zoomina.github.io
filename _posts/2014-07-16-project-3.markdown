@@ -7,5 +7,10 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+title:
+  en: "Circus Project"
+  ko: "서커스 프로젝트"
+description:
+  en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
+  ko: "이 영역을 사용하여 프로젝트를 설명하세요. 고객 세그멘테이션 및 타겟팅 프로젝트로, 머신러닝을 활용한 개인화 추천 시스템을 구축했습니다."
 ---

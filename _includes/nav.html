@@ -19,13 +19,33 @@
           <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">{% t nav.portfolio %}</a>
         </li>
         <li class="page-scroll">
-          <a href="#about">About</a>
+          <a href="#about">{% t nav.about %}</a>
         </li>
         <li class="page-scroll">
-          <a href="#contact">Contact</a>
+          <a href="#contact">{% t nav.contact %}</a>
+        </li>
+        <!-- Language Toggle -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            {% if site.lang == 'ko' %}한국어{% else %}English{% endif %} <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %}
+              <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">
+                {% if page.lang == 'ko' %}한국어{% else %}English{% endif %}
+              </a></li>
+            {% endfor %}
+            
+            {% if site.lang == 'ko' %}
+              <li><a href="{{ site.baseurl_root }}">English</a></li>
+            {% else %}
+              <li><a href="{{ site.baseurl_root }}/ko/">한국어</a></li>
+            {% endif %}
+          </ul>
         </li>
       </ul>
     </div>

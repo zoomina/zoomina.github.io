@@ -13,11 +13,27 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>
+              {% if post.title[site.lang] %}
+                {{ post.title[site.lang] }}
+              {% elsif post.title.en %}
+                {{ post.title.en }}
+              {% else %}
+                {{ post.title }}
+              {% endif %}
+            </h2>
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <p>
+              {% if post.description[site.lang] %}
+                {{ post.description[site.lang] }}
+              {% elsif post.description.en %}
+                {{ post.description.en }}
+              {% else %}
+                {{ post.description }}
+              {% endif %}
+            </p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}

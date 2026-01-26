@@ -1,0 +1,15 @@
+nav:
+  portfolio: "Portfolio"
+  about: "About"
+  contact: "Contact"
+
+about:
+  title: "About"
+  content_1: "I am a data analyst with experience in marketing analytics and customer data platform (CDP) environments. My focus has been on organizing data generated across multiple systems into consistent, reliable structures rather than on isolated metric interpretation."
+  content_2: "Based on hands-on experience in performance marketing, CDP and analytics tool integrations, and automation using SQL and Python, I am moving toward an analytics engineering career path. I aim to design stable data pipelines and standardized data models so that analytical outputs can be consistently reused across teams and support organization-wide decision-making."
+
+footer:
+  copyright: "Dr. Henry Jekyll"
+  location: "Location"
+  social: "Around the Web"
+  credits: "Credits"
