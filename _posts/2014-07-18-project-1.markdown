@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 1
-date: 2026-02-27
+date: 2026-01-26
 img: maplemeta.png
 alt: image-alt
-project-date: February 2026
+project-date: January 2026
 category: Web Development
 title:
   en: "Maple Story Meta Analysis"
