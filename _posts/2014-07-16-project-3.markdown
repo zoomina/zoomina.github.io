@@ -1,12 +1,11 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 2022-01-28
 img: shownote.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: January 2022
+category: Marketing Analysis
 title:
   en: "Shownote Brand Analysis"
   ko: "쇼노트 기업 분석 리포트"

@@ -1,18 +1,39 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2022-03-25
 img: hanzzan.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: March 2022
+category: Marketing Analysis
 title:
-  en: "hanzzan - Premium Liqure Newsletter"
-  ko: "한잔레터 - 프리미엄 주류 뉴스레터"
+  en: "hanzzan - Data-Driven PMF Validation & Growth Optimization for a Liquor Newsletter"
+  ko: "한잔레터 - 데이터로 검증한 주류 뉴스레터 PMF & 마케팅 성과 개선"
 description:
-  en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-  ko: "이 영역을 사용하여 프로젝트를 설명하세요. 딥러닝 기반 예측 모델링 프로젝트로, 시계열 데이터를 활용한 수요 예측 시스템을 개발했습니다."
+  en: |
+    ### From GA/GTM & Meta Pixel Setup to YouTube API Market Analysis and UI Optimization
+    #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
+
+    <br>
+
+    This project focused on validating product–market fit (PMF) and building a performance marketing framework for a liquor-themed newsletter. I implemented Meta Pixel, Google Analytics, and Google Tag Manager to track the full conversion funnel, and used the YouTube API to collect comments and view data from six liquor-related channels to analyze content demand. Topic-level engagement and comment word clouds were used to shape the newsletter’s content strategy.
+
+    <br>
+
+    Based on GA insights, I proposed and deployed a UI redesign that reduced bounce rate by 15.1pp, increased article clicks by 2,033%, and improved subscription conversion rate by 170%. CPA dropped by approximately 60% compared to the first ad campaign. This is an end-to-end case covering data instrumentation, market analysis, and performance optimization.
+
+  ko: |
+    ### GA·GTM·Meta 픽셀 구축부터 유튜브 API 시장 분석, UI 최적화까지
+    #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
+
+    <br>
+    
+    주류 테마 뉴스레터의 초기 시장 적합성(PMF)을 검증하고 퍼포먼스 마케팅 구조를 설계한 프로젝트입니다. Meta 픽셀, Google Analytics, Google Tag Manager를 직접 구축해 전환 퍼널을 계측했고, YouTube API로 주류 관련 채널 6곳의 댓글·조회수 데이터를 수집해 콘텐츠 수요를 분석했습니다. 댓글 워드클라우드와 주제별 반응도를 기반으로 뉴스레터 방향성을 정의했습니다.
+    
+    <br>
+    
+    GA 데이터 기반으로 UI 개편을 제안·적용한 결과, 이탈률은 15.1%p 감소, 기사 클릭은 2,033% 증가, 구독 전환율은 170% 개선되었습니다. 1차 광고 대비 CPA는 약 60% 하락했습니다. 데이터 수집 설계부터 시장 분석, 성과 개선까지 전 과정을 주도한 엔드투엔드 프로젝트입니다.
+
 links:
   - title:
       en: "Marketing Strategy Plan"

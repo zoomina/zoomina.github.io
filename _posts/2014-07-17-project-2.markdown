@@ -1,12 +1,11 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2025-04-17
 img: soop-chzzk.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: April 2025
+category: Marketing Analysis
 title:
   en: "Korean Live Streaming Market Analysis"
   ko: "국내 라이브 스트리밍 시장 분석"

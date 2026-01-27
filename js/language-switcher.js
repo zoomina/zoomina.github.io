@@ -45,10 +45,7 @@ function updatePortfolioModals(lang) {
         // Get description from data attributes
         const descriptionData = modal.getAttribute('data-description-' + lang);
         if (descriptionElement && descriptionData) {
-            // Decode HTML entities that were escaped
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = descriptionData;
-            descriptionElement.innerHTML = tempDiv.innerHTML;
+            descriptionElement.innerHTML = descriptionData;
         }
     });
 }
