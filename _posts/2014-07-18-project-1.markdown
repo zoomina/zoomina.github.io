@@ -10,6 +10,28 @@ title:
   en: "Maple Story Meta Analysis"
   ko: "메이플 스토리 메타 분석 프로젝트"
 description:
-  en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-  ko: "이 영역을 사용하여 프로젝트를 설명하세요. 데이터 분석 및 시각화 프로젝트로, 고객 행동 패턴을 분석하고 인사이트를 도출하는 작업을 수행했습니다."
+  en: |
+    ### MapleStory Meta Analytics Dashboard powered by Nexon Open API
+    #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
+    <br>
+    This project builds a data-driven dashboard to analyze class balance and meta shifts in MapleStory after game patches. Character ranking, job distribution, and combat power data were collected through the Nexon Open API and stored in a PostgreSQL data warehouse structured as RAW–DW–DM layers.
+    <br>
+    Data pipelines were orchestrated using Airflow to automate ranking ingestion and DW→DM aggregation processes. A separate pipeline continuously collects patch notes and update announcements. When a new update is detected, the patch notes are processed using the Claude API to automatically generate a summary of major changes and a “daily checklist” for players.
+    <br>
+    To quantify meta dynamics, several analytical metrics were designed, including Meta Entropy Score (meta diversity), TER (Top Efficiency Ratio for top-ranked classes), and Meta Shift Score (ranking volatility after patches). The dashboard prototype was implemented using Streamlit and Plotly, enabling interactive exploration of class performance distribution, top-player job share, and patch impact analysis. The database is hosted on Supabase and the web service is deployed via Fly.io.
+
+  ko: |
+    ### Nexon Open API 기반 메이플스토리 메타 분석 대시보드 구축
+    #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
+    <br>
+    메이플스토리 패치 이후 직업 밸런스와 메타 변화를 데이터 기반으로 분석하기 위해 구축한 메타 분석 대시보드 프로젝트입니다. Nexon Open API로 캐릭터 랭킹, 직업 분포, 전투력 데이터를 수집하고 PostgreSQL 기반 RAW–DW–DM 구조의 데이터 레이어를 설계하여 분석용 데이터 마트를 구축했습니다.
+    <br>
+    Airflow를 활용해 랭킹 데이터 적재와 DW→DM 집계 파이프라인을 자동화하고, 패치노트 및 공지 데이터를 수집하는 별도 파이프라인을 구성했습니다. 업데이트 발생 시 패치 노트를 기반으로 Claude API를 활용해 주요 변경 사항 요약과 ‘메할일’ 리스트를 자동 생성하는 기능도 구현했습니다.
+    <br>
+    또한 Meta Entropy Score, TER(Top Efficiency Ratio), Meta Shift Score 등 게임 메타 상태와 직업 경쟁력을 정량적으로 분석하기 위한 지표를 설계했습니다. 대시보드는 Streamlit과 Plotly로 구현했으며, 직업별 층수 분포, 상위 랭커 점유율, 패치 전후 메타 변화 등을 인터랙티브하게 탐색할 수 있도록 구성했습니다. 데이터베이스는 Supabase 기반 클라우드 환경에서 운영하고 웹 서비스는 Fly.io를 통해 배포했습니다.
+links:
+  - title:
+      en: "Maple Story Meta Dashboard"
+      ko: "메이플스토리 메타 분석 대시보드"
+    url: "https://maplemeta.fly.dev"
 ---
