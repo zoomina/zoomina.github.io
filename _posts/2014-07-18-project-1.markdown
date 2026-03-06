@@ -14,21 +14,21 @@ description:
     ### MapleStory Meta Analytics Dashboard powered by Nexon Open API
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
     <br>
-    Game patches keep a live service alive — but too much meta disruption drives players away. This project quantifies patch impact through real data rather than community sentiment, providing game operators with an objective basis for balance decisions. Ranking data from the Muto (무릉도장) leaderboard was collected via the Nexon Open API and loaded into a three-layer pipeline (RAW → DW → DM), with custom metrics designed to measure meta health: Meta Entropy Score (class distribution balance), TER (spec gap between top players and the 50-floor threshold), and Meta Shift Score (equipment and stat changes across patches).
+    This project quantifies how patch-driven meta shifts affect player fatigue — replacing community sentiment with objective, data-backed measurement. Ranking data from the Muto (무릉도장) leaderboard was collected via the Nexon Open API and loaded into a RAW→DW→DM three-layer pipeline, with custom metrics designed from scratch to measure meta health: Meta Entropy Score, TER, and Meta Shift Score.
     <br>
-    Data collection, preprocessing, and analytical design were handled end-to-end, with Airflow automating weekly ranking ingestion and daily patch monitoring. PostgreSQL's jsonb type was used to handle semi-structured API responses, and the Claude API is triggered on update detection to run the patch analysis pipeline. The web service was prototyped in Streamlit, then built and deployed to Fly.io via vibe coding.
+    Data collection and preprocessing were automated with Airflow — weekly ranking ingestion and daily patch monitoring. PostgreSQL's jsonb type was used to handle semi-structured API payloads, and the Claude API is triggered on update detection to run the patch analysis pipeline. The web service was prototyped in Streamlit, then built and deployed to Fly.io via vibe coding.
     <br>
-    Key findings include: after the new class Lenn launched, nearly half of top-ranked players switched — yet Bishop's share held steady, validating the community's long-held belief that Bishops are irreplaceable. The biggest spec gap between top players and 50-floor borderline characters was found in Star Force and Hexa Core progression. Patch-driven shifts in equipment set choices were also quantitatively captured, alongside a post-rework surge in Kinesis adoption pointing to a sub-character leveling trend.
+    Key findings: after the new class Lenn launched and claimed nearly half of top-ranked slots, Bishop's share held firm — validating through data what the community had long assumed. The steepest spec gap between top players and 50-floor borderline characters came down to Hexa Core and Star Force progression. Patch notes and player to-do lists are also auto-generated via the Claude API whenever an update is detected.
 
   ko: |
     ### Nexon Open API 기반 메이플스토리 메타 분석 대시보드 구축
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
     <br>
-    패치로 인한 메타 변화가 유저 피로도에 어떤 영향을 미치는지, 커뮤니티 여론이 아닌 실데이터로 정량 측정하는 것이 이 프로젝트의 목표입니다. Nexon Open API로 수집한 무릉도장 랭킹 데이터를 RAW→DW→DM 3계층 파이프라인으로 적재하고, Meta Entropy Score·TER·Meta Shift Score 등 메타 상태를 수치화하는 지표를 직접 설계했습니다.
+    패치로 인한 메타 변화가 유저 피로도에 어떤 영향을 미치는지, 커뮤니티 여론이 아닌 실데이터로 정량 측정하는 것이 이 프로젝트의 목표입니다. Nexon Open API로 수집한 무릉도장 랭킹 데이터를 RAW→DW→DM 3계층 파이프라인으로 적재하고, Meta Entropy Score, TER, Meta Shift Score 등 메타 상태를 수치화하는 지표를 설계했습니다.
     <br>
-    데이터 수집·전처리·분석 기획은 직접 수행했으며, Airflow로 랭킹 배치(주 1회)와 공지 모니터링(일 1회)을 자동화했습니다. 반정형 데이터 처리를 위해 PostgreSQL의 jsonb를 활용했고, 변경 감지 시 Claude API 호출로 패치 분석 파이프라인이 실행됩니다. 웹 서비스는 Streamlit 프로토타입을 기반으로 바이브코딩으로 구현해 Fly.io에 배포했습니다.
+    Airflow로 랭킹 배치(주 1회)와 공지 모니터링(일 1회) 등의 데이터 수집, 전처리 과정을 자동화했습니다. 반정형 데이터 처리를 위해 PostgreSQL의 jsonb를 활용했고, 변경 감지 시 Claude API 호출로 패치 분석 파이프라인이 실행됩니다. 웹 서비스는 Streamlit 프로토타입을 기반으로 바이브코딩으로 구현해 Fly.io에 배포했습니다.
     <br>
-    실제 분석 결과, 신규 직업 렌 출시 이후 무릉 랭커의 절반에 가까운 점유율을 차지하게 되었음에도 불구하고 비숍 점유율이 유지된 사실을 데이터로 확인했고, 스펙 격차의 핵심이 스타포스·헥사코어임을 밝혔습니다. 업데이트 감지 시 Claude API를 통해 패치노트 요약과 유저 할 일 리스트도 자동 생성합니다.
+    실제 분석 결과, 신규 직업 렌 출시 이후 무릉 랭커의 절반에 가까운 점유율을 차지하게 되었음에도 불구하고 비숍의 점유율이 유지된 사실을 데이터로 확인했고, 스펙 격차의 핵심이 헥사코어와 스타포스라는 점을 확인했습니다. 업데이트 감지 시 Claude API를 통해 패치노트 요약과 유저 할 일 리스트도 자동 생성합니다.
 links:
   - title:
       en: "Maple Story Meta Dashboard"
