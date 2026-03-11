@@ -14,17 +14,88 @@ description:
     ### Shownote Brand Analysis using Twitter + KOPIS Ticketing Data
     #Python #NLP #WebCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
     <br>
-    This project combines quantitative and qualitative research to assess Shownote’s brand positioning and propose actionable marketing directions. I collected Twitter data via crawling and applied Korean NLP (stemming + keyword filtering) to identify audience demand signals, visualized as a word cloud.
+
+    <details>
+    <summary>Problem</summary>
+
+    This project examined Shownote’s brand positioning and audience demand using both ticketing data and social media reactions.  
+    The goal was to identify what drives booking performance and what audiences expect from the brand.
+
+    </details>
+
+    <details>
+    <summary>Data</summary>
+
+    - KOPIS open API ticketing and occupancy data  
+    - Twitter crawling data related to musicals and audience reactions
+
+    </details>
+
+    <details>
+    <summary>Method</summary>
+
+    - Time-series analysis of booking and occupancy trends by show/date  
+    - Korean NLP-based keyword extraction and word cloud analysis  
+    - Tableau dashboard for combined exploration of sales and audience demand
+
+    </details>
+
+    <details>
+    <summary>Insights</summary>
+
+    - Booking trends were affected by cast exposure, media appearances, and seasonal events  
+    - Audience demand signals such as video and soundtrack-related needs appeared clearly in Twitter data  
+    - Quantitative and qualitative signals together provided a stronger basis for marketing direction
+
+    </details>
+
     <br>
-    In parallel, I used the KOPIS Open API to analyze ticket sales and seat occupancy trends by show/date, and interpreted potential drivers such as cast exposure, media appearances, and seasonal effects (e.g., holidays). All preprocessing was done in Python, and the final dashboard was built in Tableau using time-series line charts and demand keyword visuals.
+
+    The full report covers detailed ticketing patterns and demand keywords by content.
+
 
   ko: |
     ### 트위터 크롤링 + KOPIS 예매 데이터를 결합한 쇼노트 브랜드 분석 및 마케팅 제언
     #Python #NLP #TwitterCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
     <br>
-    쇼노트의 브랜드 포지셔닝을 점검하고, 개선이 필요한 지점과 마케팅 캠페인 방향을 제안한 프로젝트입니다. 트위터 데이터를 크롤링해 어간 추출·품사 필터링(명사/형용사) 기반 키워드 빈도를 산출했고, 워드클라우드로 고객 수요(영상/음원 기록물 니즈 등)를 시각화했습니다.
+
+    <details>
+    <summary>문제 정의</summary>
+
+    쇼노트의 브랜드 포지셔닝과 관객 수요를 예매 데이터와 소셜 반응을 함께 활용해 분석한 프로젝트입니다.  
+    어떤 요인이 예매 성과에 영향을 주는지, 관객이 브랜드에 무엇을 기대하는지 파악하는 것이 목표였습니다.
+
+    </details>
+
+    <details>
+    <summary>데이터</summary>
+
+    - KOPIS Open API 기반 공연별 예매·점유율 데이터  
+    - 뮤지컬 관련 트위터 크롤링 데이터
+
+    </details>
+
+    <details>
+    <summary>분석 방법</summary>
+
+    - 공연별·일자별 판매 및 점유율 시계열 분석  
+    - 한국어 NLP 기반 키워드 추출 및 워드클라우드 분석  
+    - Tableau 대시보드로 예매 추이와 수요 키워드 통합 시각화
+
+    </details>
+
+    <details>
+    <summary>핵심 인사이트</summary>
+
+    - 캐스트 노출, 미디어 출연, 시즌 이벤트가 예매율 변화에 영향을 미쳤습니다  
+    - 영상·음원 등 2차 콘텐츠에 대한 관객 수요가 트위터 데이터에서 확인되었습니다  
+    - 예매 데이터와 소셜 반응을 결합해 브랜드 방향성과 마케팅 포인트를 도출했습니다
+
+    </details>
+
     <br>
-    동시에 KOPIS Open API로 공연별·일자별 판매/점유율 추이를 분석해 라인차트로 정리하고, 캐스트/미디어 노출·이벤트·시즌(크리스마스 등)이 좌석 점유율에 미치는 영향을 정황적으로 해석했습니다. 데이터 전처리는 Python으로 수행하고, 결과는 Tableau 대시보드로 구성해 수요 키워드와 판매 추이를 한 화면에서 탐색 가능하도록 설계했습니다.
+
+    상세 리포트에서는 공연별 예매 패턴과 관객 수요 키워드를 구체적으로 확인할 수 있습니다.
 links:
   - title:
       en: "Company Analysis Report"

@@ -16,23 +16,90 @@ description:
 
     <br>
 
-    This project focused on validating product–market fit (PMF) and building a performance marketing framework for a liquor-themed newsletter. I implemented Meta Pixel, Google Analytics, and Google Tag Manager to track the full conversion funnel, and used the YouTube API to collect comments and view data from six liquor-related channels to analyze content demand. Topic-level engagement and comment word clouds were used to shape the newsletter’s content strategy.
+    <details>
+    <summary>Problem</summary>
+
+    This project addressed low subscription conversion after paid traffic acquisition.  
+    The goal was to identify where users dropped off on the landing page and improve the signup funnel through data-driven UX changes.
+
+    </details>
+
+    <details>
+    <summary>Data</summary>
+
+    - Google Analytics and Google Tag Manager event data  
+    - Meta Pixel-based paid traffic data  
+    - YouTube API data for liquor-related content demand analysis
+
+    </details>
+
+    <details>
+    <summary>Method</summary>
+
+    - Funnel analysis across landing, CTA exposure, and subscription events  
+    - Event-based behavioral analysis to detect low-visibility and drop-off points  
+    - Additional content demand analysis using external platform data
+
+    </details>
+
+    <details>
+    <summary>Insights</summary>
+
+    - The subscription form had low actual visibility because it was placed below the fold  
+    - Repositioning the CTA above the fold improved conversion efficiency significantly  
+    - Subscription conversion increased by 170%, while CPA dropped by about 60%
+
+    </details>
 
     <br>
 
-    Based on GA insights, I proposed and deployed a UI redesign that reduced bounce rate by 15.1pp, increased article clicks by 2,033%, and improved subscription conversion rate by 170%. CPA dropped by approximately 60% compared to the first ad campaign. This is an end-to-end case covering data instrumentation, market analysis, and performance optimization.
+    The full report includes the complete funnel design, UX revision, and performance change.
+
 
   ko: |
     ### GA·GTM·Meta 픽셀 구축부터 유튜브 API 시장 분석, UI 최적화까지
     #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
 
     <br>
-    
-    주류 테마 뉴스레터의 초기 시장 적합성(PMF)을 검증하고 퍼포먼스 마케팅 구조를 설계한 프로젝트입니다. Meta 픽셀, Google Analytics, Google Tag Manager를 직접 구축해 전환 퍼널을 계측했고, YouTube API로 주류 관련 채널 6곳의 댓글·조회수 데이터를 수집해 콘텐츠 수요를 분석했습니다. 댓글 워드클라우드와 주제별 반응도를 기반으로 뉴스레터 방향성을 정의했습니다.
-    
+
+    <details>
+    <summary>문제 정의</summary>
+
+    유료 광고 유입 이후 뉴스레터 구독 전환율이 낮은 문제를 분석한 프로젝트입니다.  
+    랜딩페이지 내 이탈 지점을 파악하고, 데이터 기반 UX 개선으로 구독 퍼널을 최적화하는 것이 목표였습니다.
+
+    </details>
+
+    <details>
+    <summary>데이터</summary>
+
+    - Google Analytics 및 Google Tag Manager 이벤트 데이터  
+    - Meta Pixel 기반 광고 유입 데이터  
+    - YouTube API 기반 주류 콘텐츠 수요 분석 데이터
+
+    </details>
+
+    <details>
+    <summary>분석 방법</summary>
+
+    - 랜딩 유입 → CTA 노출 → 구독 전환 퍼널 분석  
+    - 이벤트 기반 사용자 행동 분석으로 저노출 구간 및 이탈 구간 식별  
+    - 외부 플랫폼 데이터를 활용한 콘텐츠 수요 보조 분석
+
+    </details>
+
+    <details>
+    <summary>핵심 인사이트</summary>
+
+    - 구독 폼이 fold 하단에 위치해 실제 노출률이 낮았습니다  
+    - CTA를 첫 화면으로 이동하는 방식으로 UX를 개선했습니다  
+    - 그 결과 구독 전환율은 170% 증가했고, CPA는 약 60% 감소했습니다
+
+    </details>
+
     <br>
-    
-    GA 데이터 기반으로 UI 개편을 제안·적용한 결과, 이탈률은 15.1%p 감소, 기사 클릭은 2,033% 증가, 구독 전환율은 170% 개선되었습니다. 1차 광고 대비 CPA는 약 60% 하락했습니다. 데이터 수집 설계부터 시장 분석, 성과 개선까지 전 과정을 주도한 엔드투엔드 프로젝트입니다.
+
+    상세 리포트에서는 퍼널 구조, UX 개편, 성과 변화 과정을 확인할 수 있습니다.
 
 links:
   - title:

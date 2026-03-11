@@ -15,40 +15,92 @@ description:
 
     #Python #Time Series Analysis #Trend Extraction #Seasonality Decomposition #Search Demand Analysis #EDA
 
-    This project analyzes the wearable healthcare device Feels, with a focus on quantitatively validating market growth and optimal marketing timing using real demand data, rather than relying solely on qualitative market narratives.
-    While academic papers and industry reports were referenced as supporting context, the core analysis is based on five years of Google Trends search volume data, collected and analyzed directly.
-    
-    Key analytical outcomes include:
-    Identification of sustained market growth, indicating that the category has moved beyond a short-term trend
-    Time-series decomposition revealing clear seasonality with two annual demand peaks (January and August)
+    <br>
 
-    Strategic alignment of campaign objectives with seasonal demand patterns:
-    - January: B2C-focused campaigns targeting end users
-    - August: B2B-focused campaigns targeting institutions
+    <details>
+    <summary>Problem</summary>
 
-    Given that Feels operates through partnerships with hospitals and counseling centers, the proposed strategy follows a B2B-first approach, securing institutional partners ahead of demand peaks, followed by localized B2C expansion that guides users to nearby service providers.
+    This project tested whether the wearable healthcare device market showed real demand growth and when campaigns should be launched.  
+    Rather than relying only on qualitative reports, it focused on validating timing with behavioral search data.
 
-    This project demonstrates how search behavior data can be translated into actionable marketing decisions, bridging data analysis and business strategy.
+    </details>
+
+    <details>
+    <summary>Data</summary>
+
+    - Five years of Google Trends search volume data  
+    - Search demand related to wearable healthcare devices and the Feels product category
+
+    </details>
+
+    <details>
+    <summary>Method</summary>
+
+    - Time-series trend analysis  
+    - Seasonal decomposition to identify recurring demand peaks  
+    - Strategic interpretation of search demand for B2B and B2C timing
+
+    </details>
+
+    <details>
+    <summary>Insights</summary>
+
+    - The category showed sustained growth rather than short-term hype  
+    - Demand peaks appeared repeatedly in January and August  
+    - Based on seasonality, the project proposed a B2B-first and B2C-expansion strategy
+
+    </details>
+
+    <br>
+
+    The full report explains how search behavior was translated into campaign timing decisions.
+
   ko: |
     ### Google Trends 기반 수요 분석으로 검증한 웨어러블 헬스케어 시장의 성장성과 캠페인 타이밍
     
     #Python #Time Series Analysis #Trend Extraction #Seasonality Decomposition #Search Demand Analysis #EDA
     <br><br>
 
-    본 프로젝트는 웨어러블 헬스케어 기기 Feels를 대상으로, 정성적 시장 논의에 그치지 않고 실제 수요 데이터 기반으로 시장의 성장성과 마케팅 집행 시점을 검증하는 데 초점을 맞췄습니다.
-    논문·산업 리포트에서 제시하는 시장 전망을 보조 지표로 활용하되, 핵심 분석은 Google Trends의 5년치 검색량 데이터를 직접 수집·가공하여 수행했습니다.
-    
     <br>
-    
-    - 검색량 추이를 통해 해당 시장이 단기 유행이 아닌, 지속 성장 국면에 진입했음을 정량적으로 확인
-    - 시계열 분해를 통해 연 2회(1월, 8월) 반복적으로 나타나는 시즌성 패턴을 도출
-    - 시즌별 수요 맥락을 고려해 1월은 B2C, 8월은 B2B 중심의 캠페인 전략을 제안
-    
+
+    <details>
+    <summary>문제 정의</summary>
+
+    웨어러블 헬스케어 기기 시장이 실제로 성장 국면인지, 그리고 마케팅을 언제 집행하는 것이 적절한지 검증한 프로젝트입니다.  
+    정성적 시장 전망에만 의존하지 않고 검색 행동 데이터로 타이밍을 판단하는 데 초점을 맞췄습니다.
+
+    </details>
+
+    <details>
+    <summary>데이터</summary>
+
+    - Google Trends 5년치 검색량 데이터  
+    - 웨어러블 헬스케어 및 Feels 관련 검색 수요 데이터
+
+    </details>
+
+    <details>
+    <summary>분석 방법</summary>
+
+    - 시계열 추세 분석  
+    - 시즌성 분해를 통한 반복 수요 피크 식별  
+    - 검색 수요 패턴을 기반으로 B2B/B2C 전략 시나리오 해석
+
+    </details>
+
+    <details>
+    <summary>핵심 인사이트</summary>
+
+    - 해당 시장은 일시적 유행이 아니라 지속 성장 단계로 해석 가능했습니다  
+    - 1월과 8월에 반복적인 수요 피크가 확인되었습니다  
+    - 시즌성에 맞춰 B2B 선행, 이후 B2C 확장 전략을 제안했습니다
+
+    </details>
+
     <br>
-    
-    특히 Feels 제품이 병원·상담센터 등 기관과의 연계를 전제로 한다는 점을 반영하여,
-    B2B 선행 → 지역 기반 B2C 확장 구조의 마케팅 시나리오를 설계했습니다.
-    이는 단순 캠페인 아이디어가 아니라, 데이터로 검증된 수요 타이밍에 맞춘 실행 전략이라는 점에서 차별성을 가집니다.
+
+    상세 리포트에서는 검색 수요를 실제 캠페인 타이밍 전략으로 연결한 과정을 확인할 수 있습니다.
+links:
 links:
   - title:
       en: "Product Market Analysis Report"
