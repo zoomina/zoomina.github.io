@@ -13,83 +13,63 @@ description:
   en: |
     ### From GA/GTM & Meta Pixel Setup to YouTube API Market Analysis and UI Optimization
     #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
-
     <br>
-
-    **Problem**
-
-    This project addressed low subscription conversion after paid traffic acquisition.  
-    The goal was to identify where users dropped off on the landing page and improve the signup funnel through data-driven UX changes.
-
+    <strong>Problem</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>This project addressed low subscription conversion after paid traffic acquisition.</li>
+      <li>The goal was to identify where users dropped off on the landing page and improve the signup funnel through data-driven UX changes.</li>
+    </ul>
     <br>
-
-    **Data**
-
-    - Google Analytics and Google Tag Manager event data  
-    - Meta Pixel-based paid traffic data  
-    - YouTube API data for liquor-related content demand analysis
-
+    <strong>Data</strong>
+    <ul>
+      <li>Google Analytics and Google Tag Manager event data</li>
+      <li>Meta Pixel-based paid traffic data</li>
+      <li>YouTube API data for liquor-related content demand analysis</li>
+    </ul>
     <br>
-
-    **Method**
-
-    - Funnel analysis across landing, CTA exposure, and subscription events  
-    - Event-based behavioral analysis to detect low-visibility and drop-off points  
-    - Additional content demand analysis using external platform data
-
+    <strong>Method</strong>
+    <ul>
+      <li>Funnel analysis across landing, CTA exposure, and subscription events</li>
+      <li>Event-based behavioral analysis to detect low-visibility and drop-off points</li>
+      <li>Additional content demand analysis using external platform data</li>
+    </ul>
     <br>
-
-    **Insights**
-
-    - The subscription form had low actual visibility because it was placed below the fold  
-    - Repositioning the CTA above the fold improved conversion efficiency significantly  
-    - Subscription conversion increased by 170%, while CPA dropped by about 60%
-
-    <br>
-
-    The full report includes the complete funnel design, UX revision, and performance change.
-
-
+    <strong>Insights</strong>
+    <ul>
+      <li>The subscription form had low actual visibility because it was placed below the fold</li>
+      <li>Repositioning the CTA above the fold improved conversion efficiency significantly</li>
+      <li>Subscription conversion increased by 170%, while CPA dropped by about 60%</li>
+    </ul>
   ko: |
     ### GA·GTM·Meta 픽셀 구축부터 유튜브 API 시장 분석, UI 최적화까지
     #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
-
     <br>
-
-    **문제 정의**
-
-    유료 광고 유입 이후 뉴스레터 구독 전환율이 낮은 문제를 분석한 프로젝트입니다.  
-    랜딩페이지 내 이탈 지점을 파악하고, 데이터 기반 UX 개선으로 구독 퍼널을 최적화하는 것이 목표였습니다.
-
+    <strong>문제 정의</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>유료 광고 유입 이후 뉴스레터 구독 전환율이 낮은 문제를 분석한 프로젝트입니다.</li>
+      <li>랜딩페이지 내 사용자 행동 데이터를 기반으로 이탈 지점을 파악하고 구독 퍼널을 개선하는 것이 목표였습니다.</li>
+    </ul>
     <br>
-
-    **데이터**
-
-    - Google Analytics 및 Google Tag Manager 이벤트 데이터  
-    - Meta Pixel 기반 광고 유입 데이터  
-    - YouTube API 기반 주류 콘텐츠 수요 분석 데이터
-
+    <strong>데이터</strong>
+    <ul>
+      <li>Google Analytics 및 Google Tag Manager 이벤트 데이터</li>
+      <li>Meta Pixel 기반 광고 유입 데이터</li>
+      <li>YouTube API 기반 주류 콘텐츠 수요 데이터</li>
+    </ul>
     <br>
-
-    **분석 방법**
-
-    - 랜딩 유입 → CTA 노출 → 구독 전환 퍼널 분석  
-    - 이벤트 기반 사용자 행동 분석으로 저노출 구간 및 이탈 구간 식별  
-    - 외부 플랫폼 데이터를 활용한 콘텐츠 수요 보조 분석
-
-    
+    <strong>분석 방법</strong>
+    <ul>
+      <li>랜딩 유입 → CTA 노출 → 구독 전환 퍼널 분석</li>
+      <li>이벤트 기반 사용자 행동 분석으로 이탈 구간 및 저노출 구간 식별</li>
+      <li>외부 플랫폼 데이터를 활용한 콘텐츠 수요 보조 분석</li>
+    </ul>
     <br>
-
-    **핵심 인사이트**
-
-    - 구독 폼이 fold 하단에 위치해 실제 노출률이 낮았습니다  
-    - CTA를 첫 화면으로 이동하는 방식으로 UX를 개선했습니다  
-    - 그 결과 구독 전환율은 170% 증가했고, CPA는 약 60% 감소했습니다
-
-    <br>
-
-    상세 리포트에서는 퍼널 구조, UX 개편, 성과 변화 과정을 확인할 수 있습니다.
-
+    <strong>핵심 인사이트</strong>
+    <ul>
+      <li>구독 폼이 fold 하단에 위치해 실제 노출률이 낮았습니다</li>
+      <li>CTA를 첫 화면으로 이동하는 방식으로 UX를 개선했습니다</li>
+      <li>그 결과 구독 전환율은 170% 증가하고 CPA는 약 60% 감소했습니다</li>
+    </ul>
 links:
   - title:
       en: "Marketing Strategy Plan"

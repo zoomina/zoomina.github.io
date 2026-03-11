@@ -14,76 +14,61 @@ description:
     ### Shownote Brand Analysis using Twitter + KOPIS Ticketing Data
     #Python #NLP #WebCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
     <br>
-
-    **Problem**
-
-    This project examined Shownote’s brand positioning and audience demand using both ticketing data and social media reactions.  
-    The goal was to identify what drives booking performance and what audiences expect from the brand.
-
+    <strong>Problem</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>This project examined Shownote’s brand positioning and audience demand using both ticketing data and social media reactions.</li>
+      <li>The goal was to identify what drives booking performance and what audiences expect from the brand.</li>
+    </ul>
     <br>
-
-    **Data**
-
-    - KOPIS open API ticketing and occupancy data  
-    - Twitter crawling data related to musicals and audience reactions
-
+    <strong>Data</strong>
+    <ul>
+      <li>KOPIS open API ticketing and occupancy data</li>
+      <li>Twitter crawling data related to musicals and audience reactions</li>
+    </ul>
     <br>
-
-    **Method**
-
-    - Time-series analysis of booking and occupancy trends by show/date  
-    - Korean NLP-based keyword extraction and word cloud analysis  
-    - Tableau dashboard for combined exploration of sales and audience demand
-
+    <strong>Method</strong>
+    <ul>
+      <li>Time-series analysis of booking and occupancy trends by show/date</li>
+      <li>Korean NLP-based keyword extraction and word cloud analysis</li>
+      <li>Tableau dashboard for combined exploration of sales and audience demand</li>
+    </ul>
     <br>
-
-    **Insights**
-
-    - Booking trends were affected by cast exposure, media appearances, and seasonal events  
-    - Audience demand signals such as video and soundtrack-related needs appeared clearly in Twitter data  
-    - Quantitative and qualitative signals together provided a stronger basis for marketing direction
-
-    <br>
-
-    The full report covers detailed ticketing patterns and demand keywords by content.
-
+    <strong>Insights</strong>
+    <ul>
+      <li>Booking trends were affected by cast exposure, media appearances, and seasonal events</li>
+      <li>Audience demand signals such as video and soundtrack-related needs appeared clearly in Twitter data</li>
+      <li>Quantitative and qualitative signals together provided a stronger basis for marketing direction</li>
+    </ul>
 
   ko: |
     ### 트위터 크롤링 + KOPIS 예매 데이터를 결합한 쇼노트 브랜드 분석 및 마케팅 제언
     #Python #NLP #TwitterCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
     <br>
-
-    **문제 정의**
-
-    쇼노트의 브랜드 포지셔닝과 관객 수요를 예매 데이터와 소셜 반응을 함께 활용해 분석한 프로젝트입니다.  
-    어떤 요인이 예매 성과에 영향을 주는지, 관객이 브랜드에 무엇을 기대하는지 파악하는 것이 목표였습니다.
-
+    <strong>문제 정의</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>쇼노트의 브랜드 포지셔닝과 관객 수요를 예매 데이터와 소셜 반응을 함께 활용해 분석한 프로젝트입니다.</li>
+      <li>어떤 요인이 예매 성과에 영향을 주는지, 관객이 브랜드에 무엇을 기대하는지 파악하는 것이 목표였습니다.</li>
+    </ul>
     <br>
-
-    **데이터**
-
-    - KOPIS Open API 기반 공연별 예매·점유율 데이터  
-    - 뮤지컬 관련 트위터 크롤링 데이터
-
+    <strong>데이터</strong>
+    <ul>
+      <li>KOPIS Open API 기반 공연 예매 및 점유율 데이터</li>
+      <li>뮤지컬 관련 트위터 크롤링 데이터</li>
+    </ul>
     <br>
-
-    **분석 방법**
-
-    - 공연별·일자별 판매 및 점유율 시계열 분석  
-    - 한국어 NLP 기반 키워드 추출 및 워드클라우드 분석  
-    - Tableau 대시보드로 예매 추이와 수요 키워드 통합 시각화
-
+    <strong>분석 방법</strong>
+    <ul>
+      <li>공연별·일자별 판매 및 점유율 시계열 분석</li>
+      <li>한국어 NLP 기반 키워드 추출 및 워드클라우드 분석</li>
+      <li>Tableau 대시보드로 예매 추이와 수요 키워드 통합 시각화</li>
+    </ul>
     <br>
-
-    **핵심 인사이트**
-
-    - 캐스트 노출, 미디어 출연, 시즌 이벤트가 예매율 변화에 영향을 미쳤습니다  
-    - 영상·음원 등 2차 콘텐츠에 대한 관객 수요가 트위터 데이터에서 확인되었습니다  
-    - 예매 데이터와 소셜 반응을 결합해 브랜드 방향성과 마케팅 포인트를 도출했습니다
-
-    <br>
-
-    상세 리포트에서는 공연별 예매 패턴과 관객 수요 키워드를 구체적으로 확인할 수 있습니다.
+    <strong>핵심 인사이트</strong>
+    <ul>
+      <li>캐스트 노출, 미디어 출연, 시즌 이벤트가 예매율 변화에 영향을 미쳤습니다</li>
+      <li>영상·음원 등 2차 콘텐츠에 대한 관객 수요가 트위터 데이터에서 확인되었습니다</li>
+      <li>예매 데이터와 소셜 반응을 결합해 브랜드 방향성과 마케팅 포인트를 도출했습니다</li>
+    </ul>
 links:
   - title:
       en: "Company Analysis Report"
