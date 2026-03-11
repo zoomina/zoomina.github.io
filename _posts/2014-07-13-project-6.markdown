@@ -16,40 +16,34 @@ description:
 
     <br>
 
-    <details>
-    <summary>Problem</summary>
+    **Problem**
 
     This project addressed low subscription conversion after paid traffic acquisition.  
     The goal was to identify where users dropped off on the landing page and improve the signup funnel through data-driven UX changes.
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Data</summary>
+    **Data**
 
     - Google Analytics and Google Tag Manager event data  
     - Meta Pixel-based paid traffic data  
     - YouTube API data for liquor-related content demand analysis
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Method</summary>
+    **Method**
 
     - Funnel analysis across landing, CTA exposure, and subscription events  
     - Event-based behavioral analysis to detect low-visibility and drop-off points  
     - Additional content demand analysis using external platform data
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Insights</summary>
+    **Insights**
 
     - The subscription form had low actual visibility because it was placed below the fold  
     - Repositioning the CTA above the fold improved conversion efficiency significantly  
     - Subscription conversion increased by 170%, while CPA dropped by about 60%
-
-    </details>
 
     <br>
 
