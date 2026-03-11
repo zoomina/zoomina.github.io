@@ -13,7 +13,7 @@ description:
   en: |
     ### KoBERT-Based Korean Multi-Class Emotion Classification + Hackathon Award
     #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
-    <br>
+    <br><br>
     <strong>Problem</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>This project started with classifying emotions in Korean Twitter text and expanded into applying BERT-based classification to dialogue data in a hackathon setting.</li>
@@ -42,7 +42,7 @@ description:
   ko: |
     ### KoBERT 기반 한국어 다중 감정 분류 모델 구축 및 해커톤 수상
     #Python #NLP #SentimentAnalysis #KoBERT #PyTorch
-    <br>
+    <br><br>
     <strong>문제 정의</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>한국어 트위터 텍스트 감정 분류 모델을 구축한 뒤 이를 대화형 데이터 감정 분류 해커톤 문제에 확장한 프로젝트입니다.</li>

@@ -13,7 +13,7 @@ description:
   en: |
     ### From GA/GTM & Meta Pixel Setup to YouTube API Market Analysis and UI Optimization
     #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
-    <br>
+    <br><br>
     <strong>Problem</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>This project addressed low subscription conversion after paid traffic acquisition.</li>
@@ -43,7 +43,7 @@ description:
   ko: |
     ### GA·GTM·Meta 픽셀 구축부터 유튜브 API 시장 분석, UI 최적화까지
     #Python #EDA #FunnelAnalysis #DataVisualization #Dashboarding #GoogleAnalytics #GTM #PMFValidation
-    <br>
+    <br><br>
     <strong>문제 정의</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>유료 광고 유입 이후 뉴스레터 구독 전환율이 낮은 문제를 분석한 프로젝트입니다.</li>

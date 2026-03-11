@@ -13,7 +13,7 @@ description:
   en: |
     ### MapleStory Meta Analytics Dashboard powered by Nexon Open API
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
-    <br>
+    <br><br>
     <strong>Problem</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>This project quantifies how game updates shift class balance and player fatigue in MapleStory.</li>
@@ -43,7 +43,7 @@ description:
   ko: |
     ### Nexon Open API 기반 메이플스토리 메타 분석 대시보드 구축
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
-    <br>
+    <br><br>
     <p><strong>문제 정의</strong></p>
     <ul style="list-style:none; padding-left:0;">
       <li>메이플스토리 업데이트 이후 직업 밸런스와 유저 피로도가 어떻게 변하는지 정량적으로 측정하는 프로젝트입니다.<br>

@@ -13,7 +13,7 @@ description:
   en: |
     ### Shownote Brand Analysis using Twitter + KOPIS Ticketing Data
     #Python #NLP #WebCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
-    <br>
+    <br><br>
     <strong>Problem</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>This project examined Shownote’s brand positioning and audience demand using both ticketing data and social media reactions.</li>
@@ -43,7 +43,7 @@ description:
   ko: |
     ### 트위터 크롤링 + KOPIS 예매 데이터를 결합한 쇼노트 브랜드 분석 및 마케팅 제언
     #Python #NLP #TwitterCrawling #KOPISOpenAPI #DataPreprocessing #Tableau #DataVisualization
-    <br>
+    <br><br>
     <strong>문제 정의</strong>
     <ul style="list-style:none; padding-left:0;">
       <li>쇼노트의 브랜드 포지셔닝과 관객 수요를 예매 데이터와 소셜 반응을 함께 활용해 분석한 프로젝트입니다.</li>
