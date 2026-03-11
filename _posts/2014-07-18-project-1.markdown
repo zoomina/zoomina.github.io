@@ -15,40 +15,34 @@ description:
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
     <br>
 
-    <details>
-    <summary>Problem</summary>
+    **Problem**
 
     This project quantifies how game updates shift class balance and player fatigue in MapleStory.  
     The goal was to move beyond community opinion and build objective indicators for meta change.
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Data</summary>
+    **Data**
 
     - Nexon Open API-based ranking and character data  
     - Weekly Mu Lung Dojo records, equipment, hexacore, hyper stat, and ability data  
     - RAW-DW-DM layered pipeline for reproducible collection and analysis
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Method</summary>
+    **Method**
 
     - Built a pipeline with Airflow, PostgreSQL, and staged data modeling  
     - Designed Balance Score using Shannon Entropy and Shift Score for patch impact  
     - Segmented users into 50F and high-tier groups to compare accessibility vs top-end meta
 
-    </details>
+    <br>
 
-    <details>
-    <summary>Insights</summary>
+    **Insights**
 
     - Meta concentration and class dominance can be tracked quantitatively over time  
     - Patch impact is interpretable through outcome, investment, and build-change dimensions  
     - The framework supports balancing decisions with player-behavior-based evidence
-
-    </details>
 
     <br>
 
@@ -59,40 +53,32 @@ description:
     #Python #PostgreSQL #Airflow #Streamlit #Plotly #DataPipeline #GameAnalytics
     <br>
 
-    <details>
-    <summary>문제 정의</summary>
+    **문제 정의**
 
     메이플스토리 업데이트 이후 직업 밸런스와 유저 피로도가 어떻게 변하는지 정량적으로 측정하는 프로젝트입니다.  
     커뮤니티 반응 중심 해석을 넘어서 실제 플레이 데이터 기반 지표를 설계하는 데 초점을 맞췄습니다.
 
-    </details>
-
-    <details>
-    <summary>데이터</summary>
+    **데이터**
 
     - Nexon Open API 기반 랭킹 및 캐릭터 데이터  
     - 무릉도장 기록, 장비, 헥사코어, 하이퍼스탯, 어빌리티 데이터  
     - 재현 가능한 분석을 위한 RAW-DW-DM 3계층 파이프라인 구성
 
-    </details>
+    <br>
 
-    <details>
-    <summary>분석 방법</summary>
+    **분석 방법**
 
     - Airflow, PostgreSQL 기반 수집·적재·가공 파이프라인 구축  
     - Shannon Entropy 기반 Balance Score, 패치 영향도 측정을 위한 Shift Score 설계  
     - 50층 구간과 상위권 구간을 분리해 대중 메타와 상위 메타를 비교 분석
 
-    </details>
+    <br>
 
-    <details>
-    <summary>핵심 인사이트</summary>
+    **핵심 인사이트**
 
     - 직업 쏠림과 메타 집중도를 시계열로 정량 추적 가능  
     - 패치 영향은 성과·투자·세팅 변화 관점에서 해석 가능  
     - 데이터 기반 밸런스 운영 의사결정을 지원하는 분석 프레임워크로 확장 가능
-
-    </details>
 
     <br>
 

@@ -56,40 +56,35 @@ description:
 
     <br>
 
-    <details>
-    <summary>문제 정의</summary>
+    **문제 정의**
 
     유료 광고 유입 이후 뉴스레터 구독 전환율이 낮은 문제를 분석한 프로젝트입니다.  
     랜딩페이지 내 이탈 지점을 파악하고, 데이터 기반 UX 개선으로 구독 퍼널을 최적화하는 것이 목표였습니다.
 
-    </details>
+    <br>
 
-    <details>
-    <summary>데이터</summary>
+    **데이터**
 
     - Google Analytics 및 Google Tag Manager 이벤트 데이터  
     - Meta Pixel 기반 광고 유입 데이터  
     - YouTube API 기반 주류 콘텐츠 수요 분석 데이터
 
-    </details>
+    <br>
 
-    <details>
-    <summary>분석 방법</summary>
+    **분석 방법**
 
     - 랜딩 유입 → CTA 노출 → 구독 전환 퍼널 분석  
     - 이벤트 기반 사용자 행동 분석으로 저노출 구간 및 이탈 구간 식별  
     - 외부 플랫폼 데이터를 활용한 콘텐츠 수요 보조 분석
 
-    </details>
+    
+    <br>
 
-    <details>
-    <summary>핵심 인사이트</summary>
+    **핵심 인사이트**
 
     - 구독 폼이 fold 하단에 위치해 실제 노출률이 낮았습니다  
     - CTA를 첫 화면으로 이동하는 방식으로 UX를 개선했습니다  
     - 그 결과 구독 전환율은 170% 증가했고, CPA는 약 60% 감소했습니다
-
-    </details>
 
     <br>
 
