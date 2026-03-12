@@ -5,7 +5,7 @@ date: 2026-03-05
 img: maplemeta.png
 alt: image-alt
 project-date: January 2026
-category: Web Development
+category: Game Analysis
 title:
   en: "Maple Story Meta Analysis"
   ko: "메이플 스토리 메타 분석 프로젝트"

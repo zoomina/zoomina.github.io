@@ -1,15 +1,98 @@
 ---
 layout: default
 modal-id: 2
-date: 2025-04-17
-img: soop-chzzk.png
+date: 2025-07-21
+img: steam_dashboard.png
 alt: image-alt
-project-date: April 2025
-category: Marketing Analysis
+project-date: July 2025
+category: Game Analysis
 title:
-  en: "Korean Live Streaming Market Analysis"
-  ko: "국내 라이브 스트리밍 시장 분석"
+  en: "Steam Game Market Analysis Dashboard"
+  ko: "Steam 게임 시장 분석 대시보드"
 description:
-  en: "Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-  ko: "이 영역을 사용하여 프로젝트를 설명하세요. 마케팅 캠페인 성과 분석 프로젝트로, ROI 최적화를 위한 데이터 기반 의사결정을 지원했습니다."
+  en: |
+    ### Steam Game Market Analysis & Visualization Dashboard
+    #Python #DuckDB #Streamlit #Plotly #GameAnalytics #TimeSeriesAnalysis #MarketAnalysis
+    <br><br>
+    <strong>Problem</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>Analyzed whether player behavior differs by genre in the Steam game market.</li>
+      <li>The goal was to understand market competition and player behavior through genre-level activity patterns.</li>
+      <li>The analysis focuses on market concentration, regional preference, and temporal play behavior.</li>
+    </ul>
+    <br>
+    <strong>Data</strong>
+    <ul>
+      <li>Steam public dataset including game metadata and estimated concurrent player counts</li>
+      <li>Over 1000 files of 5-minute interval active user estimates</li>
+      <li>Game metadata including genre, developer, language, and tags</li>
+      <li>DuckDB-based preprocessing pipeline for large-scale log data</li>
+      <li>Processed datasets stored in parquet format for efficient analytics</li>
+    </ul>
+    <br>
+    <strong>Method</strong>
+    <ul>
+      <li>DAU estimation using hourly peak concurrent users as proxy active users</li>
+      <li>Market concentration analysis using HHI (Herfindahl-Hirschman Index)</li>
+      <li>Time-series clustering of genre trends using DTW (Dynamic Time Warping)</li>
+      <li>Temporal activity analysis using day-of-week and hourly heatmaps</li>
+      <li>Genre-level market share and publisher distribution analysis</li>
+    </ul>
+    <br>
+    <strong>Insights</strong>
+    <ul>
+      <li>Action genre shows decreasing market concentration as multiple titles share the player base.</li>
+      <li>Sports genre shows increasing concentration, indicating dominance of a small number of titles.</li>
+      <li>Different genres exhibit distinct play-time patterns across the day.</li>
+      <li>Casual and Indie genres show higher daytime activity, while Action and RPG peak during evening hours.</li>
+      <li>Combining language distribution and activity patterns enables regional genre preference estimation.</li>
+      <li>Adventure genre activity patterns suggest a strong Chinese player base.</li>
+      <li>Racing genre activity aligns with European time zones.</li>
+      <li>The analysis framework enables exploration of market structure and player behavior at the genre level.</li>
+    </ul>
+  ko: |
+    ### Steam 게임 시장 분석 및 시각화 대시보드
+    #Python #DuckDB #Streamlit #Plotly #GameAnalytics #TimeSeriesAnalysis #MarketAnalysis
+    <br><br>
+    <strong>문제 정의</strong>
+    <ul style="list-style:none; padding-left:0;">
+      <li>Steam 게임 시장에서 장르별로 유저 이용 패턴과 시장 구조에 차이가 존재하는지 분석했습니다.</li>
+      <li>장르별 유저 활동 패턴을 기반으로 시장 경쟁 구조와 플레이 행동 특성을 이해하는 것을 목표로 했습니다.</li>
+      <li>시장 집중도, 지역별 선호 장르, 플레이 시간 패턴을 중심으로 분석을 수행했습니다.</li>
+    </ul>
+    <br>
+    <strong>데이터</strong>
+    <ul>
+      <li>Steam 공개 데이터셋 (게임 메타데이터 + 동시접속자 추정 데이터)</li>
+      <li>5분 단위 active user 추정 데이터 약 1000개 파일</li>
+      <li>장르, 개발사, 언어, 태그 등 게임 메타데이터</li>
+      <li>DuckDB 기반 SQL 전처리 파이프라인 구축</li>
+      <li>대용량 로그 데이터를 parquet 포맷으로 저장하여 분석 효율 개선</li>
+    </ul>
+    <br>
+    <strong>분석 방법</strong>
+    <ul>
+      <li>유저 ID 부재 환경에서 1시간 단위 최대 접속자 수를 active user로 가정하여 DAU 추정</li>
+      <li>HHI(Herfindahl-Hirschman Index)를 활용한 장르별 시장 집중도 분석</li>
+      <li>DTW(Dynamic Time Warping) 기반 시계열 트렌드 클러스터링</li>
+      <li>요일 및 시간대별 active user 비율을 활용한 플레이 패턴 분석</li>
+      <li>장르별 시장 점유율, 언어 분포, 제작사 분포 분석</li>
+    </ul>
+    <br>
+    <strong>핵심 인사이트</strong>
+    <ul>
+      <li>Action 장르는 특정 게임 의존도가 감소하며 장르 내 경쟁 구조가 확대되는 추세를 보였습니다.</li>
+      <li>Sports 장르는 경쟁작 감소로 인해 일부 게임 중심의 시장 집중도가 상승했습니다.</li>
+      <li>장르별 플레이 시간 패턴이 명확히 구분되었습니다.</li>
+      <li>Casual과 Indie 장르는 낮 시간대 이용 비중이 높고 Action과 RPG 장르는 저녁 시간대 플레이가 집중됩니다.</li>
+      <li>언어 분포와 활성 시간대를 결합하여 지역별 장르 선호 패턴을 추정할 수 있었습니다.</li>
+      <li>Adventure 장르는 중국 유저 중심 플레이 패턴을 보였습니다.</li>
+      <li>Racing 장르는 유럽권 시간대 플레이 패턴과 유사한 경향을 보였습니다.</li>
+      <li>본 분석은 장르별 시장 구조와 유저 행동을 정량적으로 탐색할 수 있는 분석 프레임워크를 제공합니다.</li>
+    </ul>
+links:
+  - title:
+      en: "Steam Dashboard"
+      ko: "스팀 장르 분석 대시보드"
+    url: "https://steam-dashboard-mina.streamlit.app/"
 ---
